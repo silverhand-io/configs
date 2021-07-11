@@ -1,0 +1,44 @@
+{
+  "name": "@logto/ts-config",
+  "version": "0.1.0-rc.1",
+  "description": "Common config for Logto.",
+  "author": "Gao Sun <gaosun.dev@gmail.com>",
+  "homepage": "https://github.com/logto-io/config#readme",
+  "license": "MIT",
+  "main": "tsconfig.base.json",
+  "files": [
+    "tsconfig.base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logto-io/config.git"
+  },
+  "scripts": {
+    "test": "eslint \"tests/**\""
+  },
+  "bugs": {
+    "url": "https://github.com/logto-io/config/issues"
+  },
+  "dependencies": {
+    "@logto/eslint-config": "^0.1.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.14",
+    "eslint": "^7.30.0",
+    "prettier": "^2.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "eslintConfig": {
+    "extends": "@logto"
+  },
+  "prettier": "@logto/eslint-config/.prettierrc",
+  "gitHead": "6b4f64d53c03a57da1b541531a92c7ad5d7b96ff"
+}
