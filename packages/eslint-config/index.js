@@ -197,6 +197,19 @@ const unicornRules = {
       },
     },
   ],
+  'unicorn/prevent-abbreviations': [
+    'error',
+    {
+      replacements: {
+        env: false,
+        ctx: false,
+        i: false,
+        j: false,
+      },
+    },
+  ],
+  'unicorn/no-null': 'off',
+  'unicorn/prefer-node-protocol': 'off',
 };
 
 /** @type {import('eslint').Linter.BaseConfig} **/
