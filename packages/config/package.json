@@ -1,0 +1,49 @@
+{
+  "name": "@logto/config",
+  "version": "0.1.0",
+  "description": "Common config for Logto.",
+  "author": "Gao Sun <gaosun.dev@gmail.com>",
+  "homepage": "https://github.com/logto-io/config#readme",
+  "license": "MIT",
+  "main": ".eslintrc.js",
+  "files": [".eslintrc.js", ".prettierrc.json", "tsconfig.base.json"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logto-io/config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/logto-io/config/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-xo": "^0.37.0",
+    "eslint-config-xo-typescript": "^0.43.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-unicorn": "^34.0.1",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.14"
+  },
+  "peerDependencies": {
+    "eslint-formatter-pretty": "^4.1.0",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
