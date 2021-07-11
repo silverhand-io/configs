@@ -1,12 +1,16 @@
 {
   "name": "@logto/config",
-  "version": "0.0.0",
+  "version": "0.1.0-rc.0",
   "description": "Common config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
   "license": "MIT",
   "main": ".eslintrc.js",
-  "files": [".eslintrc.js", ".prettierrc.json", "tsconfig.base.json"],
+  "files": [
+    ".eslintrc.js",
+    ".prettierrc.json",
+    "tsconfig.base.json"
+  ],
   "publishConfig": {
     "access": "public"
   },
