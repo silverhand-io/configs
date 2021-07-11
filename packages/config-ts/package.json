@@ -1,6 +1,6 @@
 {
   "name": "@logto/config-ts",
-  "version": "0.1.0-rc.0",
+  "version": "0.1.0-rc.1",
   "description": "Common config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
