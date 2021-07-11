@@ -7,7 +7,8 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    ".stylelintrc.json"
   ],
   "publishConfig": {
     "access": "public"
@@ -25,7 +26,8 @@
   "dependencies": {
     "eslint-config-xo-react": "^0.25.0",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "stylelint-config-xo-scss": "^0.14.0"
   },
   "devDependencies": {
     "@logto/eslint-config": "^0.1.0-rc.3",
@@ -33,9 +35,15 @@
     "eslint": "^7.30.0",
     "eslint-formatter-pretty": "^4.1.0",
     "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.2"
-  }
+    "@logto/eslint-config": "^0.1.0-rc.2",
+    "stylelint": "^13.13.1"
+  },
+  "eslintConfig": {
+    "extends": "@logto"
+  },
+  "prettier": "@logto/eslint-config/.prettierrc"
 }
