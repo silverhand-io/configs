@@ -1,6 +1,6 @@
 {
   "name": "@logto/ts-config",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "description": "Common config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
@@ -23,7 +23,7 @@
     "url": "https://github.com/logto-io/config/issues"
   },
   "dependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.1"
+    "@logto/eslint-config": "^0.1.0-rc.2"
   },
   "devDependencies": {
     "@types/eslint": "^7.2.14",
