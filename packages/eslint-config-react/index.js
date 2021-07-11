@@ -7,4 +7,14 @@ module.exports = {
     // Make sure prettier is the last one
     'plugin:prettier/recommended',
   ],
+  rules: {
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        replacements: {
+          src: false,
+        },
+      },
+    ],
+  },
 };
