@@ -1,5 +1,5 @@
 {
-  "name": "@logto/config",
+  "name": "@logto/config-ts",
   "version": "0.1.0-rc.0",
   "description": "Common config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
@@ -49,5 +49,6 @@
   },
   "engines": {
     "node": ">=14.15.0"
-  }
+  },
+  "gitHead": "6b4f64d53c03a57da1b541531a92c7ad5d7b96ff"
 }
