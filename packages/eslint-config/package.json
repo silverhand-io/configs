@@ -1,6 +1,6 @@
 {
   "name": "@logto/eslint-config",
-  "version": "0.1.0-rc.2",
+  "version": "0.1.0-rc.3",
   "description": "Shared ESLint config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
@@ -44,8 +44,8 @@
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "peerDependencies": {
-    "eslint-formatter-pretty": "^4.1.0",
     "eslint": "^7.30.0",
+    "eslint-formatter-pretty": "^4.1.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
