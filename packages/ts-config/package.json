@@ -31,7 +31,7 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.5",
+    "@logto/eslint-config": "^0.1.0-rc.8",
     "typescript": "^4.3.5"
   },
   "engines": {
