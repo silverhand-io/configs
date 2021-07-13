@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-const { replacements } = require('@logto/eslint-config/replacements.js');
+const replacements = require('@logto/eslint-config/replacements.js');
 
 module.exports = {
   ...replacements,

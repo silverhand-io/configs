@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // Rules are copied from https://github.com/xojs/xo/blob/main/config/plugins.cjs
 
-const { replacements } = require('./replacements.js');
+const replacements = require('./replacements.js');
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const importRules = {
