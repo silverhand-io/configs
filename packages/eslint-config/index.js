@@ -1,4 +1,11 @@
+// Have to disable these rules to use CommonJS and enable VSCode ESLint plugin
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable unicorn/prefer-module */
+/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable @typescript-eslint/no-var-requires */
 // Rules are copied from https://github.com/xojs/xo/blob/main/config/plugins.cjs
+
+const { replacements } = require('./replacements.js');
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const importRules = {
@@ -197,23 +204,12 @@ const unicornRules = {
       },
     },
   ],
-  'unicorn/prevent-abbreviations': [
-    'error',
-    {
-      replacements: {
-        env: false,
-        ctx: false,
-        i: false,
-        j: false,
-      },
-    },
-  ],
+  'unicorn/prevent-abbreviations': ['error', { replacements }],
   'unicorn/no-null': 'off',
   'unicorn/prefer-node-protocol': 'off',
 };
 
 /** @type {import('eslint').Linter.BaseConfig} **/
-// eslint-disable-next-line unicorn/prefer-module
 module.exports = {
   plugins: ['no-use-extend-native', 'promise', 'import', 'node', 'eslint-comments'],
   extends: [
