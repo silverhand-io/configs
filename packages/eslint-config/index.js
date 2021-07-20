@@ -212,6 +212,7 @@ const unicornRules = {
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
   plugins: ['no-use-extend-native', 'promise', 'import', 'node', 'eslint-comments'],
+  ignorePatterns: ["jest.config.js"],
   extends: [
     'plugin:unicorn/recommended',
     'xo',
