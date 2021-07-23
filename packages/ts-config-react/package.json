@@ -1,6 +1,6 @@
 {
   "name": "@logto/ts-config-react",
-  "version": "0.1.0-rc.11",
+  "version": "0.1.0-rc.12",
   "description": "Common TypeScript (React) config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@logto/eslint-config": "^0.1.0-rc.11",
     "@logto/eslint-config-react": "^0.1.0-rc.11",
-    "@logto/ts-config": "^0.1.0-rc.11",
+    "@logto/ts-config": "^0.1.0-rc.12",
     "@types/react": "^17.0.14",
     "eslint": "^7.30.0",
     "eslint-formatter-pretty": "^4.1.0",
