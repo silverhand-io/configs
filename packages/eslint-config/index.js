@@ -1,4 +1,3 @@
-// Have to disable these rules to use CommonJS and enable VSCode ESLint plugin
 /* eslint-disable unicorn/prefer-module */
 // Rules are copied from https://github.com/xojs/xo/blob/main/config/plugins.cjs
 
@@ -226,6 +225,12 @@ module.exports = {
         // Make sure prettier is the last one
         'plugin:prettier/recommended',
       ],
+    },
+    {
+      files: ['*.config.js'],
+      rules: {
+        'unicorn/prefer-module': 'off',
+      },
     },
   ],
 };
