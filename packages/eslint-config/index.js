@@ -1,8 +1,5 @@
 // Have to disable these rules to use CommonJS and enable VSCode ESLint plugin
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable unicorn/prefer-module */
-/* eslint-disable @typescript-eslint/no-require-imports */
-/* eslint-disable @typescript-eslint/no-var-requires */
 // Rules are copied from https://github.com/xojs/xo/blob/main/config/plugins.cjs
 
 const replacements = require('./replacements.js');
@@ -212,13 +209,7 @@ const unicornRules = {
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
   plugins: ['no-use-extend-native', 'promise', 'import', 'node', 'eslint-comments'],
-  ignorePatterns: ['*.config.js'],
-  extends: [
-    'plugin:unicorn/recommended',
-    'xo',
-    'xo-typescript/space',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['plugin:unicorn/recommended', 'xo', 'plugin:prettier/recommended'],
   rules: {
     'no-use-extend-native/no-use-extend-native': 'error',
     ...promiseRules,
@@ -227,4 +218,14 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: [
+        'xo-typescript/space',
+        // Make sure prettier is the last one
+        'plugin:prettier/recommended',
+      ],
+    },
+  ],
 };
