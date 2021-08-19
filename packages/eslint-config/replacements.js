@@ -4,6 +4,5 @@ module.exports = {
   ctx: false,
   i: false,
   j: false,
-  argument: false,
-  arguments: false,
+  args: false,
 };
