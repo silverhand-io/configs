@@ -10,6 +10,8 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    // https://github.com/prettier/eslint-config-prettier#curly
+    curly: ['error', 'all'],
     'unicorn/prevent-abbreviations': ['error', { replacements }],
   },
 };

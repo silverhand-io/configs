@@ -229,6 +229,8 @@ module.exports = {
     {
       files: ['*.config.js'],
       rules: {
+        // https://github.com/prettier/eslint-config-prettier#curly
+        curly: ['error', 'all'],
         'unicorn/prefer-module': 'off',
       },
     },
