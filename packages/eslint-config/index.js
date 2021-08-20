@@ -225,6 +225,9 @@ module.exports = {
         // Make sure prettier is the last one
         'plugin:prettier/recommended',
       ],
+      parserOptions: {
+        project: ['tsconfig.json', 'tsconfig.test.json'],
+      },
     },
     {
       files: ['*.config.js'],
