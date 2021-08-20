@@ -28,7 +28,6 @@
     "@logto/ts-config": "^0.1.0-rc.17",
     "@types/react": "^17.0.14",
     "eslint": "^7.30.0",
-    "eslint-formatter-pretty": "^4.1.0",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "stylelint": "^13.13.1",
