@@ -5,12 +5,7 @@ const replacements = require('./replacements.js');
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const importRules = {
-  /**
-   * Disable since it's buggy in TypeScript
-   * https://github.com/import-js/eslint-plugin-import/issues/1800#issuecomment-907803349
-   * https://github.com/import-js/eslint-plugin-import/issues/1908
-   */
-  'import/default': 'off',
+  'import/default': 'error',
   'import/export': 'error',
   'import/extensions': [
     'error',
@@ -246,8 +241,18 @@ module.exports = {
         // Make sure prettier is the last one
         'plugin:prettier/recommended',
       ],
+      rules: {
+        /**
+         * Disable these `import` rules since they're buggy in TypeScript
+         * https://github.com/import-js/eslint-plugin-import/issues/1800#issuecomment-907803349
+         * https://github.com/import-js/eslint-plugin-import/issues/1908
+         * https://github.com/alexgorbatchev/eslint-import-resolver-typescript/issues/31#issuecomment-539751607
+         */
+        'import/default': 'off',
+        'import/no-named-as-default-member': 'off',
+      },
       parserOptions: {
-        project: ['tsconfig.eslint.json', 'tsconfig.json', 'tsconfig.test.json'],
+        project: 'tsconfig.json',
       },
       settings: {
         'import/resolver': {
