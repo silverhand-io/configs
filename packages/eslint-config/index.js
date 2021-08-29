@@ -242,7 +242,7 @@ module.exports = {
         'plugin:prettier/recommended',
       ],
       parserOptions: {
-        project: ['tsconfig.json', 'tsconfig.test.json'],
+        project: ['tsconfig.eslint.json', 'tsconfig.json', 'tsconfig.test.json'],
       },
       settings: {
         'import/resolver': {
