@@ -246,9 +246,6 @@ module.exports = {
       },
       settings: {
         'import/resolver': {
-          node: {
-            extenstions: ['ts', 'tsx', 'js', 'jsx', '.d.ts'],
-          },
           typescript: {},
         },
       },
