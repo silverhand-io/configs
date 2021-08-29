@@ -66,7 +66,22 @@ const importRules = {
   // 	}
   // ],
 
-  'import/order': 'error',
+  'import/order': [
+    'error',
+    {
+      groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
+      pathGroups: [
+        {
+          pattern: '@/**',
+          group: 'internal',
+        },
+      ],
+      'newlines-between': 'always',
+      alphabetize: {
+        order: 'asc',
+      },
+    },
+  ],
   'import/no-unassigned-import': [
     'error',
     {
@@ -222,11 +237,17 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       extends: [
         'xo-typescript/space',
+        'plugin:import/typescript',
         // Make sure prettier is the last one
         'plugin:prettier/recommended',
       ],
       parserOptions: {
         project: ['tsconfig.json', 'tsconfig.test.json'],
+      },
+      settings: {
+        'import/resolver': {
+          typescript: {},
+        },
       },
     },
     {
