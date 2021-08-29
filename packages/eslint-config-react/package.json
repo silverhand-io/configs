@@ -31,7 +31,7 @@
     "stylelint-config-xo-scss": "^0.14.0"
   },
   "devDependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.20",
+    "@logto/eslint-config": "^0.1.0-rc.21",
     "@types/eslint": "^7.2.14",
     "eslint": "^7.30.0",
     "prettier": "^2.3.2",
