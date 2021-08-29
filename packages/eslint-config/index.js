@@ -5,7 +5,12 @@ const replacements = require('./replacements.js');
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const importRules = {
-  'import/default': 'error',
+  /**
+   * Disable since it's buggy in TypeScript
+   * https://github.com/import-js/eslint-plugin-import/issues/1800#issuecomment-907803349
+   * https://github.com/import-js/eslint-plugin-import/issues/1908
+   */
+  'import/default': 'off',
   'import/export': 'error',
   'import/extensions': [
     'error',
