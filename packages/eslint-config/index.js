@@ -222,10 +222,18 @@ const unicornRules = {
 
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
-  plugins: ['no-use-extend-native', 'promise', 'import', 'node', 'eslint-comments'],
+  plugins: [
+    'no-use-extend-native',
+    'promise',
+    'import',
+    'node',
+    'eslint-comments',
+    'consistent-default-export-name',
+  ],
   extends: ['plugin:unicorn/recommended', 'xo', 'plugin:prettier/recommended'],
   rules: {
     'no-use-extend-native/no-use-extend-native': 'error',
+    'consistent-default-export-name/default-export-match-filename': ['error', ['kebab', 'pascal']],
     ...promiseRules,
     ...importRules,
     ...nodeRules,
