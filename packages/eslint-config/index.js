@@ -1,6 +1,8 @@
 /* eslint-disable unicorn/prefer-module */
 // Rules are copied from https://github.com/xojs/xo/blob/main/config/plugins.cjs
 
+const xo = require('eslint-config-xo');
+
 const replacements = require('./replacements.js');
 
 /** @type {import('eslint').Linter.RulesRecord} **/
@@ -250,6 +252,12 @@ module.exports = {
          */
         'import/default': 'off',
         'import/no-named-as-default-member': 'off',
+        /**
+         * The original assert accepts string as input, and the error type cannot be recognized in jest.
+         * See https://github.com/facebook/jest/issues/7547
+         * Use a more strict `assert` instead.
+         */
+        'no-restricted-imports': [...xo.rules['no-restricted-imports'], 'assert'],
       },
       parserOptions: {
         project: 'tsconfig.json',
