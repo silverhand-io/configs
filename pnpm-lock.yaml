@@ -4,8 +4,10 @@ importers:
 
   .:
     specifiers:
+      conventional-changelog-conventionalcommits: ^4.6.0
       lerna: ^4.0.0
     devDependencies:
+      conventional-changelog-conventionalcommits: 4.6.0
       lerna: 4.0.0
 
   packages/eslint-config:
@@ -1964,6 +1966,15 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       compare-func: 2.0.0
+      q: 1.5.1
+    dev: true
+
+  /conventional-changelog-conventionalcommits/4.6.0:
+    resolution: {integrity: sha512-sj9tj3z5cnHaSJCYObA9nISf7eq/YjscLPoq6nmew4SiOjxqL2KRpK20fjnjVbpNDjJ2HR3MoVcWKXwbVvzS0A==}
+    engines: {node: '>=10'}
+    dependencies:
+      compare-func: 2.0.0
+      lodash: 4.17.21
       q: 1.5.1
     dev: true
 

@@ -1,5 +1,6 @@
 {
   "npmClient": "pnpm",
   "version": "0.1.0-rc.26",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "changelogPreset": "conventionalcommits"
 }
