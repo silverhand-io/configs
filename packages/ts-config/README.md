@@ -1,4 +1,4 @@
-# `@logto/config`
+# `@logto/ts-config`
 
 > TODO: description
 
