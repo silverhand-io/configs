@@ -33,3 +33,11 @@ jobs:
           pnpm -- lerna publish -m "release: %s" --conventional-commits --preid=rc --create-release github --yes ${{ github.event.inputs.semver }}
         env:
           GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+          
+      - name: Update pnpm lockfile
+        run: pnpm i --frozen-lockfile=false --offline
+        
+      - name: Commit and push lockfile changes
+        run: |
+          git commit -am'chore: update lockfile'
+          git push
