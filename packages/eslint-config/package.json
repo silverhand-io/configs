@@ -1,6 +1,6 @@
 {
   "name": "@logto/eslint-config",
-  "version": "0.1.1-rc.0",
+  "version": "0.1.1",
   "description": "Shared ESLint config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",

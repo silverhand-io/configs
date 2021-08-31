@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.1](https://github.com/logto-io/configs/compare/v0.1.1-rc.0...v0.1.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* **ts-config:** readme title ([94973b3](https://github.com/logto-io/configs/commit/94973b3bcc961990cf62b1acfc9acba1a0061aa9))
+
+
+
 ### [0.1.1-rc.0](https://github.com/logto-io/config/compare/v0.1.0...v0.1.1-rc.0) (2021-08-31)
 
 
