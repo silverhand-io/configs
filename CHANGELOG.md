@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.2](https://github.com/logto-io/configs/compare/v0.1.1...v0.1.2) (2021-08-31)
+
+
+### Features
+
+* **eslint-config:** disable plain `assert` in TypeScript ([fe62aca](https://github.com/logto-io/configs/commit/fe62acaf76f8e628db3e29ed43cafe66e611d535))
+
+
+
 ### [0.1.1](https://github.com/logto-io/configs/compare/v0.1.1-rc.0...v0.1.1) (2021-08-31)
 
 
