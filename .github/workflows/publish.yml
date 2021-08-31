@@ -28,6 +28,6 @@ jobs:
           
       - name: Publish to NPM
         run: |
-          pnpm -- lerna publish -m "release: %s" --conventional-commits --preid=rc ${{ github.event.inputs.semver }}
+          pnpm -- lerna publish -m "release: %s" --conventional-commits --preid=rc --yes ${{ github.event.inputs.semver }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
