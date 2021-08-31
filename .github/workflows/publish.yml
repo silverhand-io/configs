@@ -1,0 +1,33 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      semver:
+        description: 'Semver bump type'
+        required: true
+
+jobs:
+  publish-to-npm:
+    environment: npm
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_REPO_TOKEN }}
+      
+      - name: Setup Node and pnpm
+        uses: logto-io/actions-node-pnpm-run-steps@v1.0.2
+
+      - name: Configure Git user
+        run: |
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config --global user.name github-actions
+          
+      - name: Publish to NPM
+        run: |
+          pnpm -- lerna publish -m "release: %s" --conventional-commits --preid=rc ${{ github.event.inputs.semver }}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
