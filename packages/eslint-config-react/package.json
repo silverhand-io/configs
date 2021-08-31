@@ -1,6 +1,6 @@
 {
   "name": "@logto/eslint-config-react",
-  "version": "0.1.0-rc.26",
+  "version": "0.1.0-rc.27",
   "description": "Shared ESLint (React) config for Logto.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/logto-io/config#readme",
