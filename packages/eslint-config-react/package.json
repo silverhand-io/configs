@@ -25,13 +25,13 @@
     "url": "https://github.com/logto-io/config/issues"
   },
   "dependencies": {
+    "@logto/eslint-config": "^0.1.0-rc.26",
     "eslint-config-xo-react": "^0.25.0",
     "eslint-plugin-react": "^7.25.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "stylelint-config-xo-scss": "^0.14.0"
   },
   "devDependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.26",
     "@types/eslint": "^7.2.14",
     "eslint": "^7.30.0",
     "prettier": "^2.3.2",
@@ -39,7 +39,6 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@logto/eslint-config": "^0.1.0-rc.26",
     "stylelint": "^13.13.1"
   },
   "eslintConfig": {
