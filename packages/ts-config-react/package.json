@@ -29,7 +29,7 @@
     "@logto/eslint-config": "^0.1.0",
     "@logto/eslint-config-react": "^0.1.0",
     "@types/react": "^17.0.14",
-    "eslint": "^7.30.0",
+    "eslint": "^7.32.0",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "stylelint": "^13.13.1",
