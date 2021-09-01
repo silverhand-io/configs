@@ -233,6 +233,8 @@ module.exports = {
     ...nodeRules,
     ...eslintCommentsRules,
     ...unicornRules,
+    // https://github.com/prettier/eslint-config-prettier#curly
+    curly: ['error', 'all'],
   },
   overrides: [
     {
@@ -258,6 +260,8 @@ module.exports = {
          * Use a more strict `assert` instead.
          */
         'no-restricted-imports': [...xo.rules['no-restricted-imports'], 'assert'],
+        // https://github.com/prettier/eslint-config-prettier#curly
+        curly: ['error', 'all'],
       },
       parserOptions: {
         project: 'tsconfig.json',
@@ -271,8 +275,6 @@ module.exports = {
     {
       files: ['*.config.js'],
       rules: {
-        // https://github.com/prettier/eslint-config-prettier#curly
-        curly: ['error', 'all'],
         'unicorn/prefer-module': 'off',
       },
     },
