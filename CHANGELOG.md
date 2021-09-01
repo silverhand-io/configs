@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.3](https://github.com/logto-io/configs/compare/v0.1.2...v0.1.3) (2021-09-01)
+
+
+### Bug Fixes
+
+* **eslint-config:** move curly config to proper positions ([1a8e45c](https://github.com/logto-io/configs/commit/1a8e45cba7c9ed864a0a5ca3c48796f90359a534))
+
+
+
 ### [0.1.2](https://github.com/logto-io/configs/compare/v0.1.1...v0.1.2) (2021-08-31)
 
 
