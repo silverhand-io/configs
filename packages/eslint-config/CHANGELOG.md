@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/logto-io/config/compare/v0.1.3...v0.2.0) (2021-09-07)
+
+
+### Features
+
+* add `@silverhand/eslint-plugin-fp` ([b7a2db0](https://github.com/logto-io/config/commit/b7a2db0c2b27fc92a214ce8db1d73df18c294b9b))
+
+
+
 ### [0.1.3](https://github.com/logto-io/config/compare/v0.1.2...v0.1.3) (2021-09-01)
 
 
