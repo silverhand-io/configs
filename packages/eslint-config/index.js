@@ -220,11 +220,45 @@ const unicornRules = {
   'unicorn/prevent-abbreviations': ['error', { replacements }],
   'unicorn/no-null': 'off',
   'unicorn/prefer-node-protocol': 'off',
+  // Conflict with `@silverhand/fp/no-mutating-methods` when calling `.slice().sort()`
+  'unicorn/prefer-spread': 'off',
+};
+
+/** @type {import('eslint').Linter.RulesRecord} **/
+const fpRules = {
+  '@silverhand/fp/no-let': 'error',
+  '@silverhand/fp/no-delete': 'error',
+  '@silverhand/fp/no-mutating-assign': 'error',
+  '@silverhand/fp/no-mutating-methods': 'error',
+  '@silverhand/fp/no-mutation': [
+    'error',
+    {
+      allowThis: true,
+      commonjs: true,
+      exceptions: [
+        {
+          object: 'ctx',
+        },
+        {
+          object: 'process',
+          property: 'env',
+        },
+      ],
+    },
+  ],
+  '@silverhand/fp/no-valueof-field': 'error',
 };
 
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
-  plugins: ['no-use-extend-native', 'promise', 'import', 'node', 'eslint-comments'],
+  plugins: [
+    'no-use-extend-native',
+    'promise',
+    'import',
+    'node',
+    'eslint-comments',
+    '@silverhand/fp',
+  ],
   extends: ['plugin:unicorn/recommended', 'xo', 'plugin:prettier/recommended'],
   rules: {
     'no-use-extend-native/no-use-extend-native': 'error',
@@ -233,6 +267,7 @@ module.exports = {
     ...nodeRules,
     ...eslintCommentsRules,
     ...unicornRules,
+    ...fpRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },

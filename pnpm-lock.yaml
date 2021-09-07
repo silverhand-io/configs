@@ -12,6 +12,7 @@ importers:
 
   packages/eslint-config:
     specifiers:
+      '@silverhand/eslint-plugin-fp': ^2.4.1
       '@types/eslint': ^7.28.0
       '@typescript-eslint/eslint-plugin': ^4.29.3
       '@typescript-eslint/parser': ^4.29.3
@@ -31,6 +32,7 @@ importers:
       prettier: ^2.3.2
       typescript: ^4.3.5
     dependencies:
+      '@silverhand/eslint-plugin-fp': 2.4.1_eslint@7.32.0
       '@typescript-eslint/eslint-plugin': 4.29.3_fd14c0002fbbfb85b8a0070d0dffb93d
       '@typescript-eslint/parser': 4.29.3_eslint@7.32.0+typescript@4.3.5
       eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -1218,6 +1220,19 @@ packages:
       '@octokit/openapi-types': 9.1.1
     dev: true
 
+  /@silverhand/eslint-plugin-fp/2.4.1_eslint@7.32.0:
+    resolution: {integrity: sha512-AI89umZbXqK4s1rjB8MAmiNbrOBUzM0jmAVlYLFrS0tLYwKptSg5SeCBU57LbmZcdJd8IGzOqGPgln294OiDbQ==}
+    engines: {node: '>=14.15.0'}
+    peerDependencies:
+      eslint: ^7.32.0
+    dependencies:
+      create-eslint-index: 1.0.0
+      eslint: 7.32.0
+      eslint-ast-utils: 1.1.0
+      import-modules: 2.1.0
+      lodash: 4.17.21
+    dev: false
+
   /@stylelint/postcss-css-in-js/0.37.2_2b33a41d320e3e2012e5b3b0fadc703b:
     resolution: {integrity: sha512-nEhsFoJurt8oUmieT8qy4nk81WRHmJynmVwn/Vts08PL9fhgIsMhk1GId5yAN643OzqEEb5S/6At2TZW7pqPDA==}
     peerDependencies:
@@ -2076,6 +2091,13 @@ packages:
       yaml: 1.10.2
     dev: true
 
+  /create-eslint-index/1.0.0:
+    resolution: {integrity: sha1-2VQ3LYbVeS/NZ+nyt5GxqxYkEbs=}
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      lodash.get: 4.4.2
+    dev: false
+
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -2373,6 +2395,14 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
     dev: true
+
+  /eslint-ast-utils/1.1.0:
+    resolution: {integrity: sha512-otzzTim2/1+lVrlH19EfQQJEhVJSu0zOb9ygb3iapN6UlyaDtyRq4b5U1FuW0v1lRa9Fp/GJyHkSwm6NqABgCA==}
+    engines: {node: '>=4'}
+    dependencies:
+      lodash.get: 4.4.2
+      lodash.zip: 4.2.0
+    dev: false
 
   /eslint-config-prettier/8.3.0_eslint@7.32.0:
     resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
@@ -3284,6 +3314,11 @@ packages:
       resolve-cwd: 3.0.0
     dev: true
 
+  /import-modules/2.1.0:
+    resolution: {integrity: sha512-8HEWcnkbGpovH9yInoisxaSoIg9Brbul+Ju3Kqe2UsYDUBJD/iQjSgEj0zPcTDPKfPp2fs5xlv1i+JSye/m1/A==}
+    engines: {node: '>=8'}
+    dev: false
+
   /imurmurhash/0.1.4:
     resolution: {integrity: sha1-khi5srkoojixPcT7a21XbyMUU+o=}
     engines: {node: '>=0.8.19'}
@@ -3796,6 +3831,10 @@ packages:
     resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=}
     dev: true
 
+  /lodash.get/4.4.2:
+    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
+    dev: false
+
   /lodash.ismatch/4.4.0:
     resolution: {integrity: sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=}
     dev: true
@@ -3831,6 +3870,10 @@ packages:
 
   /lodash.upperfirst/4.3.1:
     resolution: {integrity: sha1-E2Xt9DFIBIHvDRxolXpe2Z1J984=}
+    dev: false
+
+  /lodash.zip/4.2.0:
+    resolution: {integrity: sha1-7GZi5IlkCO1KtsVCo5kLcswIACA=}
     dev: false
 
   /lodash/4.17.21:
