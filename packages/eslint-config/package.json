@@ -31,7 +31,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@silverhand/eslint-plugin-fp": "^2.4.1",
+    "@silverhand/eslint-plugin-fp": "^2.4.2",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint-config-prettier": "^8.3.0",
