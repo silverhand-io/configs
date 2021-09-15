@@ -4,7 +4,7 @@ const replacements = require('./replacements.js');
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
   extends: [
-    '@logto',
+    '@silverhand',
     'xo-react/space',
     // Make sure prettier is the last one
     'plugin:prettier/recommended',

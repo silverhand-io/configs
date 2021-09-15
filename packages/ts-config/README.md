@@ -1,11 +1,11 @@
-# `@logto/ts-config`
+# `@silverhand/ts-config`
 
 > TODO: description
 
 ## Usage
 
 ```
-const config = require('@logto/config');
+const config = require('@silverhand/config');
 
 // TODO: DEMONSTRATE API
 ```

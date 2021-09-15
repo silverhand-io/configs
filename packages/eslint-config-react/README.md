@@ -1,11 +1,11 @@
-# `@logto/eslint-config-react`
+# `@silverhand/eslint-config-react`
 
 > TODO: description
 
 ## Usage
 
 ```
-const eslintConfigReact = require('@logto/eslint-config-react');
+const eslintConfigReact = require('@silverhand/eslint-config-react');
 
 // TODO: DEMONSTRATE API
 ```
