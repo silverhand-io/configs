@@ -39,6 +39,7 @@ jobs:
         run: pnpm i --frozen-lockfile=false --offline
 
       - name: Commit and push lockfile changes
+        continue-on-error: true
         run: |
           git commit -am'chore: update lockfile'
           git push
