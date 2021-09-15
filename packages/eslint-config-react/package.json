@@ -1,9 +1,9 @@
 {
-  "name": "@logto/eslint-config-react",
+  "name": "@silverhand/eslint-config-react",
   "version": "0.2.1",
-  "description": "Shared ESLint (React) config for Logto.",
+  "description": "Shared ESLint (React) config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
-  "homepage": "https://github.com/logto-io/config#readme",
+  "homepage": "https://github.com/silverhand-io/configs#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -16,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logto-io/config.git"
+    "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/logto-io/config/issues"
+    "url": "https://github.com/silverhand-io/configs/issues"
   },
   "dependencies": {
-    "@logto/eslint-config": "^0.2.1",
+    "@silverhand/eslint-config": "^0.2.1",
     "eslint-config-xo-react": "^0.25.0",
     "eslint-plugin-react": "^7.25.0",
     "eslint-plugin-react-hooks": "^4.2.0",
@@ -42,7 +42,7 @@
     "stylelint": "^13.13.1"
   },
   "eslintConfig": {
-    "extends": "@logto"
+    "extends": "@silverhand"
   },
-  "prettier": "@logto/eslint-config/.prettierrc"
+  "prettier": "@silverhand/eslint-config/.prettierrc"
 }

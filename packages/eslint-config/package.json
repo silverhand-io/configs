@@ -1,9 +1,9 @@
 {
-  "name": "@logto/eslint-config",
+  "name": "@silverhand/eslint-config",
   "version": "0.2.1",
-  "description": "Shared ESLint config for Logto.",
+  "description": "Shared ESLint config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
-  "homepage": "https://github.com/logto-io/config#readme",
+  "homepage": "https://github.com/silverhand-io/configs#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logto-io/config.git"
+    "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/logto-io/config/issues"
+    "url": "https://github.com/silverhand-io/configs/issues"
   },
   "devDependencies": {
     "@types/eslint": "^7.28.0",

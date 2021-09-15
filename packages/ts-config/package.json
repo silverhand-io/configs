@@ -1,9 +1,9 @@
 {
-  "name": "@logto/ts-config",
+  "name": "@silverhand/ts-config",
   "version": "0.2.1",
-  "description": "Common TypeScript config for Logto.",
+  "description": "Common TypeScript config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
-  "homepage": "https://github.com/logto-io/config#readme",
+  "homepage": "https://github.com/silverhand-io/configs#readme",
   "license": "MIT",
   "main": "tsconfig.base.json",
   "files": [
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logto-io/config.git"
+    "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
     "test": "eslint \"tests/**\""
   },
   "bugs": {
-    "url": "https://github.com/logto-io/config/issues"
+    "url": "https://github.com/silverhand-io/configs/issues"
   },
   "devDependencies": {
-    "@logto/eslint-config": "^0.2.1",
+    "@silverhand/eslint-config": "^0.2.1",
     "@types/eslint": "^7.28.0",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
@@ -36,8 +36,8 @@
     "node": ">=14.15.0"
   },
   "eslintConfig": {
-    "extends": "@logto"
+    "extends": "@silverhand"
   },
-  "prettier": "@logto/eslint-config/.prettierrc",
+  "prettier": "@silverhand/eslint-config/.prettierrc",
   "gitHead": "6b4f64d53c03a57da1b541531a92c7ad5d7b96ff"
 }
