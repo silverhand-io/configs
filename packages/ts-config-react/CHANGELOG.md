@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.2](https://github.com/silverhand-io/configs/compare/v0.2.1...v0.2.2) (2021-09-15)
+
+
+### Bug Fixes
+
+* `[@logto](https://github.com/logto)` -> `[@silverhand](https://github.com/silverhand)` ([8a79490](https://github.com/silverhand-io/configs/commit/8a79490f46a16fa84f235a62adfe77268f51cf53))
+
+
+
 ### [0.2.1](https://github.com/silverhand-io/configs/compare/v0.2.0...v0.2.1) (2021-09-07)
 
 **Note:** Version bump only for package @silverhand/ts-config-react
