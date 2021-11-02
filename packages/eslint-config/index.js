@@ -299,7 +299,7 @@ module.exports = {
         curly: ['error', 'all'],
       },
       parserOptions: {
-        project: 'tsconfig.json',
+        project: '**/tsconfig.json',
       },
       settings: {
         'import/resolver': {
