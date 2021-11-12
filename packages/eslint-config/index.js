@@ -297,6 +297,11 @@ module.exports = {
         'no-restricted-imports': [...xo.rules['no-restricted-imports'], 'assert'],
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
+        /**
+         * eslint-config-xo-typescript disabled this rule by default, need to enable it 
+         * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
+         */
+        '@typescript-eslint/no-non-null-assertion': 'error'
       },
       parserOptions: {
         project: 'tsconfig.json',
