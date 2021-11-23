@@ -304,7 +304,7 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'error'
       },
       parserOptions: {
-        project: 'tsconfig.json',
+        project: '**/tsconfig.json',
       },
       settings: {
         'import/resolver': {
