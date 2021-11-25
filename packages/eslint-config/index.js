@@ -249,6 +249,28 @@ const fpRules = {
   '@silverhand/fp/no-valueof-field': 'error',
 };
 
+/** @type {import('eslint').Linter.RulesRecord} **/
+const sqlRules = {
+  'sql/format': [
+    2,
+    {
+      ignoreExpressions: false,
+      ignoreInline: true,
+      ignoreTagless: false,
+      ignoreStartWithNewLine: true,
+    },
+    {
+      spaces: 2,
+    },
+  ],
+  'sql/no-unsafe-query': [
+    2,
+    {
+      allowLiteral: false,
+    },
+  ],
+};
+
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
   plugins: [
@@ -258,6 +280,7 @@ module.exports = {
     'node',
     'eslint-comments',
     '@silverhand/fp',
+    'sql',
   ],
   extends: ['plugin:unicorn/recommended', 'xo', 'plugin:prettier/recommended'],
   rules: {
@@ -268,6 +291,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
+    ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
@@ -298,10 +322,10 @@ module.exports = {
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
         /**
-         * eslint-config-xo-typescript disabled this rule by default, need to enable it 
+         * eslint-config-xo-typescript disabled this rule by default, need to enable it
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
-        '@typescript-eslint/no-non-null-assertion': 'error'
+        '@typescript-eslint/no-non-null-assertion': 'error',
       },
       parserOptions: {
         project: '**/tsconfig.json',
