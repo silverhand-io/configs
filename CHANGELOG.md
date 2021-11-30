@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/silverhand-io/configs/compare/v0.2.2...v0.3.0) (2021-11-30)
+
+
+### Features
+
+* **eslint-config:** eslint-plugin-sql ([#5](https://github.com/silverhand-io/configs/issues/5)) ([aad7841](https://github.com/silverhand-io/configs/commit/aad7841ec3ec62113f359303d9869aefc4e98085))
+
+
+### Bug Fixes
+
+* find tsconfig ([#3](https://github.com/silverhand-io/configs/issues/3)) ([b3b73c7](https://github.com/silverhand-io/configs/commit/b3b73c732a8f661376b69c85ffbfa2781e755711))
+
+
+
 ### [0.2.2](https://github.com/silverhand-io/configs/compare/v0.2.1...v0.2.2) (2021-09-15)
 
 
