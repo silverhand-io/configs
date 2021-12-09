@@ -29,7 +29,7 @@
     "@silverhand/eslint-config": "^0.3.0",
     "@silverhand/eslint-config-react": "^0.3.0",
     "@types/react": "^17.0.14",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "stylelint": "^13.13.1",

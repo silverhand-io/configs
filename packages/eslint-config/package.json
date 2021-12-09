@@ -26,30 +26,30 @@
   },
   "devDependencies": {
     "@types/eslint": "^7.28.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
   "dependencies": {
     "@silverhand/eslint-plugin-fp": "^2.4.2",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-xo": "^0.37.0",
+    "eslint-config-xo": "^0.39.0",
     "eslint-config-xo-typescript": "^0.43.0",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-consistent-default-export-name": "^0.0.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.0",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.1",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-sql": "^2.0.0",
-    "eslint-plugin-unicorn": "^34.0.1"
+    "eslint-plugin-unicorn": "^39.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
