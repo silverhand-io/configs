@@ -268,7 +268,7 @@ const sqlRules = {
     },
   ],
   'sql/no-unsafe-query': [
-    2,
+    1,
     {
       allowLiteral: false,
     },
