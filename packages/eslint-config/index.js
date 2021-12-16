@@ -279,7 +279,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
-    // ...sqlRules, // Temporarily disable sqlRules because it conflicts with unicorn/template-indent which is of high priority
+    // ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
@@ -310,11 +310,7 @@ module.exports = {
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
         /**
-<<<<<<< HEAD
          * `eslint-config-xo-typescript` disabled this rule by default, need to enable it
-=======
-         * Pack eslint-config-xo-typescript disabled this rule by default, need to enable it
->>>>>>> 611b862 (chore: update lint-related configurations)
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
