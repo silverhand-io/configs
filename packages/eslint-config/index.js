@@ -222,10 +222,6 @@ const unicornRules = {
   'unicorn/prefer-node-protocol': 'off',
   // Conflict with `@silverhand/fp/no-mutating-methods` when calling `.slice().sort()`
   'unicorn/prefer-spread': 'off',
-  'unicorn/no-await-expression-member': 'off',
-  'unicorn/template-indent': 'off',
-  'unicorn/prefer-export-from': 'off',
-  'unicorn/prefer-code-point': 'warn',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} **/
@@ -258,17 +254,17 @@ const sqlRules = {
   'sql/format': [
     2,
     {
-      ignoreExpressions: true,
+      ignoreExpressions: false,
       ignoreInline: true,
-      ignoreTagless: true,
-      ignoreStartWithNewLine: true,
+      ignoreTagless: true, // Linter is hard to distinguish literal strings from sql queries, hence does not format queries that are written without using sql tag.
+      ignoreStartWithNewLine: true, // Or else there will be a new line at the beginning of sql queries
     },
     {
       spaces: 2,
     },
   ],
   'sql/no-unsafe-query': [
-    1,
+    1, // Warn use of SQL inside of template literals without the sql tag
     {
       allowLiteral: false,
     },
@@ -295,7 +291,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
-    ...sqlRules,
+    // ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
@@ -323,24 +319,13 @@ module.exports = {
          * Use a more strict `assert` instead.
          */
         'no-restricted-imports': [...xo.rules['no-restricted-imports'], 'assert'],
-        'no-warning-comments': [1, { terms: ['todo', 'fixme'], location: 'start' }],
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
         /**
-         * Eslint-config-xo-typescript disabled this rule by default, need to enable it
+         * Pack eslint-config-xo-typescript disabled this rule by default, need to enable it
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/member-ordering': [
-          2,
-          {
-            classes: ['field', 'constructor', 'method'],
-            classExpressions: ['field', 'constructor', 'method'],
-            interfaces: ['signature', 'field', 'constructor', 'method'],
-            typeLiterals: ['signature', 'field', 'constructor', 'method'],
-            default: { order: 'alphabetically' },
-          },
-        ],
       },
       parserOptions: {
         project: '**/tsconfig.json',
