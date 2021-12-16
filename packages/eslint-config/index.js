@@ -249,27 +249,28 @@ const fpRules = {
   '@silverhand/fp/no-valueof-field': 'error',
 };
 
-/** @type {import('eslint').Linter.RulesRecord} **/
-const sqlRules = {
-  'sql/format': [
-    2,
-    {
-      ignoreExpressions: false,
-      ignoreInline: true,
-      ignoreTagless: true, // Linter is hard to distinguish literal strings from sql queries, hence does not format queries that are written without using sql tag.
-      ignoreStartWithNewLine: true, // Or else there will be a new line at the beginning of sql queries
-    },
-    {
-      spaces: 2,
-    },
-  ],
-  'sql/no-unsafe-query': [
-    1, // Warn use of SQL inside of template literals without the sql tag
-    {
-      allowLiteral: false,
-    },
-  ],
-};
+// Temporarily disable sqlRules because it conflicts with unicorn/template-indent which is of high priority
+// /** @type {import('eslint').Linter.RulesRecord} **/
+// const sqlRules = {
+//   'sql/format': [
+//     2,
+//     {
+//       ignoreExpressions: false,
+//       ignoreInline: true,
+//       ignoreTagless: true, // Linter is hard to distinguish literal strings from sql queries, hence does not format queries that are written without using sql tag.
+//       ignoreStartWithNewLine: true, // Or else there will be a new line at the beginning of sql queries
+//     },
+//     {
+//       spaces: 2,
+//     },
+//   ],
+//   'sql/no-unsafe-query': [
+//     1, // Warn use of SQL inside of template literals without the sql tag
+//     {
+//       allowLiteral: false,
+//     },
+//   ],
+// };
 
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
@@ -291,7 +292,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
-    // ...sqlRules, // Temporarily disable sqlRules because it conflicts with unicorn/template-indent which is of high priority
+    // ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
