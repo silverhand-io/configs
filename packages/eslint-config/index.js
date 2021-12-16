@@ -252,7 +252,7 @@ const fpRules = {
 /** @type {import('eslint').Linter.RulesRecord} **/
 const sqlRules = {
   'sql/no-unsafe-query': [
-    1, // Warn use of SQL inside of template literals without the sql tag
+    'error', // Warn use of SQL inside of template literals without the sql tag
     {
       allowLiteral: false,
     },
