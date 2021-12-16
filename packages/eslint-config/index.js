@@ -291,7 +291,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
-    // ...sqlRules,
+    // ...sqlRules, // Temporarily disable sqlRules because it conflicts with unicorn/template-indent which is of high priority
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
