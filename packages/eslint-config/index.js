@@ -222,6 +222,10 @@ const unicornRules = {
   'unicorn/prefer-node-protocol': 'off',
   // Conflict with `@silverhand/fp/no-mutating-methods` when calling `.slice().sort()`
   'unicorn/prefer-spread': 'off',
+  'unicorn/no-await-expression-member': 'off',
+  'unicorn/template-indent': 'off',
+  'unicorn/prefer-export-from': 'off',
+  'unicorn/prefer-code-point': 'warn',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} **/
@@ -307,6 +311,7 @@ module.exports = {
          * Use a more strict `assert` instead.
          */
         'no-restricted-imports': [...xo.rules['no-restricted-imports'], 'assert'],
+        'no-warning-comments': [1, { terms: ['todo', 'fixme'], location: 'start' }],
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
         /**
@@ -314,6 +319,22 @@ module.exports = {
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
+        '@typescript-eslint/no-unsafe-member-access': 'warn',
+        '@typescript-eslint/restrict-plus-operands': 'warn',
+        '@typescript-eslint/member-ordering': [
+          2,
+          {
+            classes: ['field', 'constructor', 'method'],
+            classExpressions: ['field', 'constructor', 'method'],
+            interfaces: ['signature', 'field', 'constructor', 'method'],
+            typeLiterals: ['signature', 'field', 'constructor', 'method'],
+            default: { order: 'alphabetically' },
+          },
+        ],
+        '@typescript-eslint/no-unsafe-assignment': 'warn',
+        '@typescript-eslint/no-unsafe-return': 'warn',
+        '@typescript-eslint/no-unsafe-call': 'warn',
+        '@typescript-eslint/restrict-template-expressions': 'warn',
       },
       parserOptions: {
         project: '**/tsconfig.json',
