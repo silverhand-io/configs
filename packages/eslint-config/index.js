@@ -251,20 +251,8 @@ const fpRules = {
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const sqlRules = {
-  'sql/format': [
-    2,
-    {
-      ignoreExpressions: false,
-      ignoreInline: true,
-      ignoreTagless: false,
-      ignoreStartWithNewLine: true,
-    },
-    {
-      spaces: 2,
-    },
-  ],
   'sql/no-unsafe-query': [
-    2,
+    'error', // Warn use of SQL inside of template literals without the sql tag
     {
       allowLiteral: false,
     },
@@ -322,7 +310,7 @@ module.exports = {
         // https://github.com/prettier/eslint-config-prettier#curly
         curly: ['error', 'all'],
         /**
-         * eslint-config-xo-typescript disabled this rule by default, need to enable it
+         * `eslint-config-xo-typescript` disabled this rule by default, need to enable it
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
