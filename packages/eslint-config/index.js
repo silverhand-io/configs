@@ -279,7 +279,7 @@ module.exports = {
     ...eslintCommentsRules,
     ...unicornRules,
     ...fpRules,
-    // ...sqlRules,
+    ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
   },
