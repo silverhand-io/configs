@@ -189,12 +189,7 @@ const promiseRules = {
 
 /** @type {import('eslint').Linter.RulesRecord} **/
 const eslintCommentsRules = {
-  'eslint-comments/disable-enable-pair': [
-    'error',
-    {
-      allowWholeFile: true,
-    },
-  ],
+  'eslint-comments/disable-enable-pair': 'error',
   'eslint-comments/no-aggregating-enable': 'error',
   'eslint-comments/no-duplicate-disable': 'error',
 
