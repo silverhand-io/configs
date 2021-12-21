@@ -57,7 +57,7 @@ importers:
 
   packages/eslint-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.4.0
+      '@silverhand/eslint-config': ^0.5.0
       '@types/eslint': ^7.28.0
       eslint: ^8.1.0
       eslint-config-xo-react: ^0.25.0
@@ -82,7 +82,7 @@ importers:
 
   packages/ts-config:
     specifiers:
-      '@silverhand/eslint-config': ^0.4.0
+      '@silverhand/eslint-config': ^0.5.0
       '@types/eslint': ^7.28.0
       eslint: ^8.1.0
       prettier: ^2.3.2
@@ -96,9 +96,9 @@ importers:
 
   packages/ts-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.4.0
-      '@silverhand/eslint-config-react': ^0.4.0
-      '@silverhand/ts-config': ^0.4.0
+      '@silverhand/eslint-config': ^0.5.0
+      '@silverhand/eslint-config-react': ^0.5.0
+      '@silverhand/ts-config': ^0.5.0
       '@types/react': ^17.0.14
       eslint: ^8.1.0
       prettier: ^2.3.2
