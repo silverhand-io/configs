@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.0](https://github.com/silverhand-io/configs/compare/v0.5.0...v0.6.0) (2022-01-27)
+
+
+### Features
+
+* **eslint-config:** add new line before block-like statements and returns ([#11](https://github.com/silverhand-io/configs/issues/11)) ([b594191](https://github.com/silverhand-io/configs/commit/b594191c7c4806159efde7c02aea8f02aa06c47b))
+
+
+
 ## [0.5.0](https://github.com/silverhand-io/configs/compare/v0.4.0...v0.5.0) (2021-12-21)
 
 **Note:** Version bump only for package @silverhand/eslint-config
