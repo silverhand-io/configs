@@ -309,6 +309,11 @@ module.exports = {
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
+        "padding-line-between-statements": [
+          "error",
+          { "blankLine": "always", "prev": "*", "next": "block-like" },
+          { "blankLine": "always", "prev": "*", "next": "return" },
+        ],
       },
       parserOptions: {
         project: '**/tsconfig.json',
