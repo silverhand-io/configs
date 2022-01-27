@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.6.1](https://github.com/silverhand-io/configs/compare/v0.6.0...v0.6.1) (2022-01-27)
+
+
+### Bug Fixes
+
+* **eslint-config:** fix padding line between statements rule ([#12](https://github.com/silverhand-io/configs/issues/12)) ([0631119](https://github.com/silverhand-io/configs/commit/063111956a78d85edc697047d3f9cb92f0cd4fc1))
+
+
+
 ## [0.6.0](https://github.com/silverhand-io/configs/compare/v0.5.0...v0.6.0) (2022-01-27)
 
 
