@@ -309,10 +309,14 @@ module.exports = {
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
-        "padding-line-between-statements": [
+        "padding-line-between-statements": "off",
+        "@typescript-eslint/padding-line-between-statements": [
           "error",
-          { "blankLine": "always", "prev": "*", "next": "block-like" },
-          { "blankLine": "always", "prev": "*", "next": "return" },
+          {
+            blankLine: "always",
+            prev: "*",
+            next: ["interface", "type", "block-like", "return"]
+          },
         ],
       },
       parserOptions: {
