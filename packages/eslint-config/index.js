@@ -315,10 +315,15 @@ module.exports = {
           {
             blankLine: 'always',
             prev: '*',
-            next: ['interface', 'type', 'block-like', 'return']
+            next: ['interface', 'type', 'block-like', 'return'],
           },
         ],
-        '@typescript-eslint/no-unnecessary-condition': 'error'
+        '@typescript-eslint/no-unnecessary-condition': 'error',
+        /**
+         * https://eslint.org/docs/rules/id-length
+         * eslint default should be min 2
+         */
+        'id-length': [2, { min: 2, exceptions: ['i', 'j', 'k'], properties: 'never' }],
       },
       parserOptions: {
         project: '**/tsconfig.json',
