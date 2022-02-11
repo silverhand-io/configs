@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.0](https://github.com/silverhand-io/configs/compare/v0.6.1...v0.7.0) (2022-02-11)
+
+
+### Features
+
+* **eslint-config:** no-unnecessary-condition rule ([#14](https://github.com/silverhand-io/configs/issues/14)) ([2b68635](https://github.com/silverhand-io/configs/commit/2b68635772bf965b5b01fb3e4041878d558c2a68))
+
+
+
 ### [0.6.1](https://github.com/silverhand-io/configs/compare/v0.6.0...v0.6.1) (2022-01-27)
 
 
