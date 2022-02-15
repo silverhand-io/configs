@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.0](https://github.com/silverhand-io/configs/compare/v0.7.0...v0.8.0) (2022-02-15)
+
+
+### Features
+
+* **config:** add id-length rule ([#13](https://github.com/silverhand-io/configs/issues/13)) ([a655924](https://github.com/silverhand-io/configs/commit/a6559248956ad8aa2c358083f9d31a76953a59fc))
+
+
+
 ## [0.7.0](https://github.com/silverhand-io/configs/compare/v0.6.1...v0.7.0) (2022-02-11)
 
 
