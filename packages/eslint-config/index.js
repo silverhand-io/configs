@@ -323,7 +323,7 @@ module.exports = {
          * https://eslint.org/docs/rules/id-length
          * eslint default should be min 2
          */
-        'id-length': [2, { min: 2, exceptions: ['i', 'j', 'k'], properties: 'never' }],
+        'id-length': [2, { min: 2, exceptions: ['i', 'j', 'k', '_'], properties: 'never' }],
       },
       parserOptions: {
         project: '**/tsconfig.json',
