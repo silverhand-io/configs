@@ -324,6 +324,22 @@ module.exports = {
          * eslint default should be min 2
          */
         'id-length': [2, { min: 2, exceptions: ['i', 'j', 'k', '_'], properties: 'never' }],
+        /**
+         * Override unnecessary naming limitation in typescript
+         * Config was introduced in eslint-config-xo-typescript v0.45.0
+         */
+        '@typescript-eslint/naming-convention': 'off',
+        /**
+         * Override the rule to allow explicit return arrows
+         * Config was introduced in eslint-config-xo v0.40.0
+        */
+        'object-shorthand': [
+          'error',
+          'always',
+          {
+            avoidExplicitReturnArrows: false,
+          },
+        ],
       },
       parserOptions: {
         project: '**/tsconfig.json',
