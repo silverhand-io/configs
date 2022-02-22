@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/eslint-config",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Shared ESLint config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
