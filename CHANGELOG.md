@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.9.1](https://github.com/silverhand-io/configs/compare/v0.9.0...v0.9.1) (2022-02-22)
+
+
+### Bug Fixes
+
+* bump typescript eslint plugins and disable unnecessary rules ([#19](https://github.com/silverhand-io/configs/issues/19)) ([66d133a](https://github.com/silverhand-io/configs/commit/66d133a45e788358a10dbae763012e5f84e957ff))
+* **eslint-config:** add missing pnpm-lock.yaml ([#20](https://github.com/silverhand-io/configs/issues/20)) ([9d2dc99](https://github.com/silverhand-io/configs/commit/9d2dc99c929e2f0282a31d6c50f5ab1030223b93))
+
+
+
 ## [0.9.0](https://github.com/silverhand-io/configs/compare/v0.8.1...v0.9.0) (2022-02-22)
 
 
