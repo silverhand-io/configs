@@ -3,6 +3,7 @@
   "rules": {
     "indentation": [2, { "baseIndentLevel": 1 }],
     "selector-class-pattern": "^((?!-).)*$",
-    "selector-id-pattern": "^((?!-).)*$"
+    "selector-id-pattern": "^((?!-).)*$",
+    "color-function-notation": "legacy"
   }
 }
