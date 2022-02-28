@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.9.3](https://github.com/silverhand-io/configs/compare/v0.9.2...v0.9.3) (2022-02-28)
+
+
+### Bug Fixes
+
+* **eslint-react:** update `react/jsx-curly-brace-presence` ([#23](https://github.com/silverhand-io/configs/issues/23)) ([0a145c6](https://github.com/silverhand-io/configs/commit/0a145c6c6bebc3bac218e74cb6ff4589102d5c70))
+
+
+
 ### [0.9.2](https://github.com/silverhand-io/configs/compare/v0.9.1...v0.9.2) (2022-02-25)
 
 
