@@ -9,6 +9,22 @@ module.exports = {
     // Make sure prettier is the last one
     'plugin:prettier/recommended',
   ],
+  overrides: [
+    {
+      files: ['*.tsx'],
+      rules: {
+        // No need when using TypeScript
+        'react/button-has-type': 'off',
+        // Conflict when using TypeScript and `setState()`
+        'unicorn/no-useless-undefined': [
+          'error',
+          {
+            checkArguments: false,
+          },
+        ],
+      },
+    },
+  ],
   rules: {
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
