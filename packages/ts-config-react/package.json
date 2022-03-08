@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/ts-config-react",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Common TypeScript (React) config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@silverhand/eslint-config": "^0.9.4",
-    "@silverhand/eslint-config-react": "^0.9.4",
+    "@silverhand/eslint-config-react": "^0.9.5",
     "@types/react": "^17.0.14",
     "eslint": "^8.10.0",
     "prettier": "^2.3.2",

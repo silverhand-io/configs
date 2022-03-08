@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/eslint-config-react",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Shared ESLint (React) config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
