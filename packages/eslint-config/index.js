@@ -277,6 +277,7 @@ module.exports = {
     ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
+    'max-lines': ['error', { max: 300, skipBlankLines: true, skipComments: true }],
   },
   overrides: [
     {
@@ -332,7 +333,7 @@ module.exports = {
         /**
          * Override the rule to allow explicit return arrows
          * Config was introduced in eslint-config-xo v0.40.0
-        */
+         */
         'object-shorthand': [
           'error',
           'always',
@@ -365,3 +366,4 @@ module.exports = {
     },
   ],
 };
+/* eslint-enable unicorn/prefer-module */
