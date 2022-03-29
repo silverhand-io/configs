@@ -365,7 +365,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.test.js?(x), *.test.ts?(x)'],
+      files: ['*.test.js?(x)', '*.test.ts?(x)'],
       rules: {
         'max-lines': ['error', { max: 400, skipBlankLines: true, skipComments: true }],
       },
