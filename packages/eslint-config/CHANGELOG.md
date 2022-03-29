@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.0](https://github.com/silverhand-io/configs/compare/v0.9.5...v0.10.0) (2022-03-29)
+
+
+### Features
+
+* **config:** add `max-lines` ([#26](https://github.com/silverhand-io/configs/issues/26)) ([e8afeb1](https://github.com/silverhand-io/configs/commit/e8afeb1278f8c721a1887d28c71959adaaf15ac2))
+
+
+
 ### [0.9.4](https://github.com/silverhand-io/configs/compare/v0.9.3...v0.9.4) (2022-03-04)
 
 **Note:** Version bump only for package @silverhand/eslint-config
