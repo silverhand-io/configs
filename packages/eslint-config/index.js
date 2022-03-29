@@ -364,6 +364,12 @@ module.exports = {
         'consistent-default-export-name/default-export-match-filename': ['error', ['pascal']],
       },
     },
+    {
+      files: ['*.test.js?(x), *.test.ts?(x)'],
+      rules: {
+        'max-lines': ['error', { max: 400, skipBlankLines: true, skipComments: true }],
+      },
+    },
   ],
 };
 /* eslint-enable unicorn/prefer-module */
