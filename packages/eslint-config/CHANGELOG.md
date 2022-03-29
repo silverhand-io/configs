@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.10.2](https://github.com/silverhand-io/configs/compare/v0.10.1...v0.10.2) (2022-03-29)
+
+
+### Bug Fixes
+
+* **config:** typo ([#28](https://github.com/silverhand-io/configs/issues/28)) ([fca945e](https://github.com/silverhand-io/configs/commit/fca945e2cb32147a779a5659bdf4e4f2c7c44dab))
+
+
+
 ### [0.10.1](https://github.com/silverhand-io/configs/compare/v0.10.0...v0.10.1) (2022-03-29)
 
 **Note:** Version bump only for package @silverhand/eslint-config

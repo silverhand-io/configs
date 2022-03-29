@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/ts-config",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Common TypeScript config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
@@ -23,7 +23,7 @@
     "url": "https://github.com/silverhand-io/configs/issues"
   },
   "devDependencies": {
-    "@silverhand/eslint-config": "^0.10.1",
+    "@silverhand/eslint-config": "^0.10.2",
     "@types/eslint": "^7.28.0",
     "eslint": "^8.10.0",
     "prettier": "^2.3.2",
