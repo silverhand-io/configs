@@ -97,7 +97,7 @@ importers:
   packages/ts-config-react:
     specifiers:
       '@silverhand/eslint-config': ^0.10.2
-      '@silverhand/eslint-config-react': ^0.10.2
+      '@silverhand/eslint-config-react': ^0.10.3
       '@silverhand/ts-config': ^0.10.2
       '@types/react': ^17.0.14
       eslint: ^8.10.0
