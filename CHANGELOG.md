@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.10.3](https://github.com/silverhand-io/configs/compare/v0.10.2...v0.10.3) (2022-03-31)
+
+
+### Features
+
+* **eslint-react:** allow double exclamation marks in react tsx ([#29](https://github.com/silverhand-io/configs/issues/29)) ([9407bb0](https://github.com/silverhand-io/configs/commit/9407bb0961e3a13d113c6539b3d8c4ff3ecd5309))
+* **react-eslint:** allow 'ref' abbreviation in React ([#30](https://github.com/silverhand-io/configs/issues/30)) ([2f4604c](https://github.com/silverhand-io/configs/commit/2f4604cee0b839f1fa233b84c6abd1abaf349592))
+
+
+
 ### [0.10.2](https://github.com/silverhand-io/configs/compare/v0.10.1...v0.10.2) (2022-03-29)
 
 
