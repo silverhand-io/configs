@@ -22,6 +22,7 @@ module.exports = {
             checkArguments: false,
           },
         ],
+        'no-implicit-coercion': ['error', { allow: ['!!'] }],
       },
     },
   ],
