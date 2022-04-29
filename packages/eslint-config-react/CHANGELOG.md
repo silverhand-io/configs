@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.10.4](https://github.com/silverhand-io/configs/compare/v0.10.3...v0.10.4) (2022-04-29)
+
+
+### Bug Fixes
+
+* **react-config:** update dependency ([#31](https://github.com/silverhand-io/configs/issues/31)) ([74125aa](https://github.com/silverhand-io/configs/commit/74125aa55b14c97f9677b97c0c0b3a5e8859862b))
+
+
+
 ### [0.10.3](https://github.com/silverhand-io/configs/compare/v0.10.2...v0.10.3) (2022-03-31)
 
 
