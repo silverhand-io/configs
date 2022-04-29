@@ -27,7 +27,7 @@
   "dependencies": {
     "@silverhand/eslint-config": "^0.10.2",
     "eslint-config-xo-react": "^0.25.0",
-    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react": "^7.29.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "stylelint-config-xo-scss": "^0.14.0"
   },
