@@ -277,6 +277,7 @@ module.exports = {
     ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
+    complexity: ['error', { max: 5 }],
     'max-lines': ['error', { max: 300, skipBlankLines: true, skipComments: true }],
   },
   overrides: [
