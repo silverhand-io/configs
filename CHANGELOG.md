@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.0](https://github.com/silverhand-io/configs/compare/v0.10.4...v0.11.0) (2022-05-09)
+
+
+### Features
+
+* **eslint:** add complexity max 5 ([#32](https://github.com/silverhand-io/configs/issues/32)) ([b037212](https://github.com/silverhand-io/configs/commit/b03721237094af3a24b438b2ff77fc73a3d9556d))
+
+
+### Bug Fixes
+
+* **config:** add `pkg-dir` as dependency ([#33](https://github.com/silverhand-io/configs/issues/33)) ([e5c0ffd](https://github.com/silverhand-io/configs/commit/e5c0ffd8d2ce0664594d0aa35af57711c4bcdbf1))
+
+
+
 ### [0.10.4](https://github.com/silverhand-io/configs/compare/v0.10.3...v0.10.4) (2022-04-29)
 
 
