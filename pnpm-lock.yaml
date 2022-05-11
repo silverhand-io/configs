@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 importers:
 
@@ -59,7 +59,7 @@ importers:
 
   packages/eslint-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.11.0
+      '@silverhand/eslint-config': ^0.12.0
       '@types/eslint': ^7.28.0
       eslint: ^8.10.0
       eslint-config-xo-react: ^0.25.0
@@ -72,10 +72,10 @@ importers:
       typescript: ^4.6.2
     dependencies:
       '@silverhand/eslint-config': link:../eslint-config
-      eslint-config-xo-react: 0.25.0_5xgof5dj7a5tiwsztuezg4hilq
+      eslint-config-xo-react: 0.25.0_edcce2f469f83b345a599d099370e85c
       eslint-plugin-react: 7.29.4_eslint@8.10.0
       eslint-plugin-react-hooks: 4.3.0_eslint@8.10.0
-      stylelint-config-xo-scss: 0.15.0_an3wuxxoixcpivwd2moqhhly5q
+      stylelint-config-xo-scss: 0.15.0_postcss@8.4.13+stylelint@14.8.2
     devDependencies:
       '@types/eslint': 7.28.0
       eslint: 8.10.0
@@ -86,7 +86,7 @@ importers:
 
   packages/ts-config:
     specifiers:
-      '@silverhand/eslint-config': ^0.11.0
+      '@silverhand/eslint-config': ^0.12.0
       '@types/eslint': ^7.28.0
       eslint: ^8.10.0
       prettier: ^2.3.2
@@ -100,9 +100,9 @@ importers:
 
   packages/ts-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.11.0
-      '@silverhand/eslint-config-react': ^0.11.0
-      '@silverhand/ts-config': ^0.11.0
+      '@silverhand/eslint-config': ^0.12.0
+      '@silverhand/eslint-config-react': ^0.12.0
+      '@silverhand/ts-config': ^0.12.0
       '@types/react': ^17.0.14
       eslint: ^8.10.0
       prettier: ^2.3.2
@@ -2516,7 +2516,7 @@ packages:
       eslint: 8.10.0
     dev: false
 
-  /eslint-config-xo-react/0.25.0_5xgof5dj7a5tiwsztuezg4hilq:
+  /eslint-config-xo-react/0.25.0_edcce2f469f83b345a599d099370e85c:
     resolution: {integrity: sha512-YpABFxnoATAYtxsZQChZEbOkWqzCtcQDRdiUqHhLgG7hzbAEzPDmsRUWnTP8oTVLVFWrbgdf913b8kQJaR1cBA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -5947,7 +5947,7 @@ packages:
     resolution: {integrity: sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=}
     dev: true
 
-  /stylelint-config-xo-scss/0.15.0_an3wuxxoixcpivwd2moqhhly5q:
+  /stylelint-config-xo-scss/0.15.0_postcss@8.4.13+stylelint@14.8.2:
     resolution: {integrity: sha512-X9WD8cDofWFWy3uaKdwwm+DjEvgI/+h7AtlaPagkhNAeOWH/GFQoeciBvNvyJ8tB1p00SoIzCn2IIOIKXCbxYA==}
     engines: {node: '>=12'}
     peerDependencies:
