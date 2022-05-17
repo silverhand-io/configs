@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.0-rc.0](https://github.com/silverhand-io/configs/compare/v0.12.0...v0.13.0-rc.0) (2022-05-17)
+
+
+### Features
+
+* `jest-config` ([#35](https://github.com/silverhand-io/configs/issues/35)) ([b5c4781](https://github.com/silverhand-io/configs/commit/b5c47810c204c10fb547d3f9fe07a0f1a055b357))
+
+
+### Bug Fixes
+
+* **eslint-config:** remove typescript from eslint-config peer dependencies ([#36](https://github.com/silverhand-io/configs/issues/36)) ([b08269c](https://github.com/silverhand-io/configs/commit/b08269c886a0b593be9ff512a1d8088dea9b6188))
+
+
+
 ## [0.12.0](https://github.com/silverhand-io/configs/compare/v0.11.0...v0.12.0) (2022-05-11)
 
 **Note:** Version bump only for package root
