@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/jest-config",
-  "version": "0.13.0-rc.0",
+  "version": "0.13.0",
   "description": "Shared ESLint config for Silverhand.",
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
@@ -27,8 +27,8 @@
     "node": "^16.0.0"
   },
   "devDependencies": {
-    "@silverhand/eslint-config": "^0.13.0-rc.0",
-    "@silverhand/ts-config": "^0.13.0-rc.0",
+    "@silverhand/eslint-config": "^0.13.0",
+    "@silverhand/ts-config": "^0.13.0",
     "@types/node": "16",
     "jest": "^27.5.1",
     "prettier": "^2.3.2",
