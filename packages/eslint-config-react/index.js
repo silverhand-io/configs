@@ -34,16 +34,7 @@ module.exports = {
     'react/jsx-curly-brace-presence': [
       'error',
       { props: 'never', children: 'never', propElementValues: 'always' },
-    ],
-    'node/file-extension-in-import': [
-      'error', 'always',
-      {
-        '.js': 'never',
-        '.jsx': 'never',
-        '.ts': 'never',
-        '.tsx': 'never',
-      }
-    ],
+    ]
   },
 };
 /* eslint-enable unicorn/prefer-module */

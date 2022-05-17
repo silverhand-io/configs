@@ -16,6 +16,8 @@ const importRules = {
       ignorePackages: true,
       // TypeScript doesn't yet support using extensions and fails with error TS2691.
       pattern: {
+        js: 'never',
+        jsx: 'never',
         ts: 'never',
         tsx: 'never',
       },
@@ -114,16 +116,8 @@ const nodeRules = {
 
   'node/no-unpublished-bin': 'error',
 
-  // We have this enabled in addition to `import/extensions` as this one has an auto-fix.
-  'node/file-extension-in-import': [
-    'error',
-    'always',
-    {
-      // TypeScript doesn't yet support using extensions and fails with error TS2691.
-      '.ts': 'never',
-      '.tsx': 'never',
-    },
-  ],
+  // This works as an auto-fix in addition to `import/extensions`, and currently we do not want to enable it.
+  'node/file-extension-in-import': 'off',
   'node/no-mixed-requires': [
     'error',
     {
