@@ -4,6 +4,14 @@
     "indentation": [2, { "baseIndentLevel": 1 }],
     "selector-class-pattern": "^((?!-).)*$",
     "selector-id-pattern": "^((?!-).)*$",
-    "color-function-notation": "legacy"
+    "color-function-notation": "legacy",
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ]
   }
 }
