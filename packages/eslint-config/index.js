@@ -336,6 +336,7 @@ module.exports = {
             avoidExplicitReturnArrows: false,
           },
         ],
+        '@typescript-eslint/no-explicit-any': 'error',
       },
       parserOptions: {
         project: '**/tsconfig.json',
