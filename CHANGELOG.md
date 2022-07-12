@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.15.0](https://github.com/silverhand-io/configs/compare/v0.14.0...v0.15.0) (2022-07-12)
+
+
+### Features
+
+* **eslint-config:** no explicit any ([#54](https://github.com/silverhand-io/configs/issues/54)) ([412eac4](https://github.com/silverhand-io/configs/commit/412eac41bfde2189d75c7c1aa2b71fba8f4e589e))
+
+
+### Bug Fixes
+
+* **config-react:** ignore `global` for pseudo class ([#45](https://github.com/silverhand-io/configs/issues/45)) ([1e0b549](https://github.com/silverhand-io/configs/commit/1e0b549aee817a965f70d827c7d481864294f301))
+
+
+
 ## [0.14.0](https://github.com/silverhand-io/configs/compare/v0.13.0...v0.14.0) (2022-05-17)
 
 
