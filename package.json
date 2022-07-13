@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "lerna": "^4.0.0"
   },
   "scripts": {
