@@ -348,6 +348,20 @@ module.exports = {
       },
     },
     {
+      files: ['*.ts', '*.tsx'],
+      excludedFiles: ['*.test.ts, *.test.tsx'],
+      rules: {
+        'no-restricted-syntax': [
+          'error',
+          // We (or I) don't like `as` expression in TypeScript
+          {
+            selector: 'TSAsExpression',
+            message: 'Usually you can find another way to do this. Try hard before using `as`.',
+          },
+        ],
+      },
+    },
+    {
       files: ['*.config.js'],
       rules: {
         'unicorn/prefer-module': 'off',
