@@ -349,7 +349,8 @@ module.exports = {
     },
     {
       files: ['*.ts', '*.tsx'],
-      excludedFiles: ['*.test.ts, *.test.tsx'],
+      // Array will not work for glob pattern
+      excludedFiles: '*.test.ts?(x)',
       rules: {
         'no-restricted-syntax': [
           'error',
