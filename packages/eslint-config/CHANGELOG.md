@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.1](https://github.com/silverhand-io/configs/compare/v0.16.0...v0.16.1) (2022-07-13)
+
+
+### Bug Fixes
+
+* **eslint:** no as ([#61](https://github.com/silverhand-io/configs/issues/61)) ([33cd9df](https://github.com/silverhand-io/configs/commit/33cd9dfaba2fb5ee025d9f31bc6c3741b61cfaac))
+
+
+
 ## [0.16.0](https://github.com/silverhand-io/configs/compare/v0.15.0...v0.16.0) (2022-07-13)
 
 
