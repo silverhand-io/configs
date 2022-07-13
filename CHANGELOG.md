@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.0](https://github.com/silverhand-io/configs/compare/v0.15.0...v0.16.0) (2022-07-13)
+
+
+### Features
+
+* **eslint:** ban `as` in non-test ts files ([#55](https://github.com/silverhand-io/configs/issues/55)) ([1bcda13](https://github.com/silverhand-io/configs/commit/1bcda13bb0a14247f6b0201fe4e38a89a7bbbfef))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v4 ([#53](https://github.com/silverhand-io/configs/issues/53)) ([afe9cac](https://github.com/silverhand-io/configs/commit/afe9cac2def6a99cf7e763767283ecd9eee62405))
+
+
+
 ## [0.15.0](https://github.com/silverhand-io/configs/compare/v0.14.0...v0.15.0) (2022-07-12)
 
 
