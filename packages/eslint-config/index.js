@@ -355,7 +355,7 @@ module.exports = {
           'error',
           // We (or I) don't like `as` expression in TypeScript
           {
-            selector: 'TSAsExpression',
+            selector: 'TSAsExpression[typeAnnotation.typeName.name!=="const"]',
             message: 'Usually you can find another way to do this. Try hard before using `as`.',
           },
         ],
