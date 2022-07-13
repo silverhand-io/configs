@@ -47,7 +47,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-sql": "^2.0.0",
     "eslint-plugin-unicorn": "^39.0.0",
-    "pkg-dir": "^4.2.0"
+    "pkg-dir": "^6.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.1.0",
