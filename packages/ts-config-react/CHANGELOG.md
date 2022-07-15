@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.0](https://github.com/silverhand-io/configs/compare/v0.16.3...v0.17.0) (2022-07-15)
+
+
+### Features
+
+* no more import react ([#66](https://github.com/silverhand-io/configs/issues/66)) ([e8db928](https://github.com/silverhand-io/configs/commit/e8db9288c211f50672b106a8f26af4ac9131d042))
+
+
+
 ## [0.16.3](https://github.com/silverhand-io/configs/compare/v0.16.2...v0.16.3) (2022-07-15)
 
 **Note:** Version bump only for package @silverhand/ts-config-react

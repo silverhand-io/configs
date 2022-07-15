@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.0](https://github.com/silverhand-io/configs/compare/v0.16.3...v0.17.0) (2022-07-15)
+
+**Note:** Version bump only for package @silverhand/eslint-config
+
+
+
+
+
 ## [0.16.2](https://github.com/silverhand-io/configs/compare/v0.16.1...v0.16.2) (2022-07-13)
 
 
