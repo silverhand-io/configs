@@ -7,6 +7,6 @@
       "esnext"
     ],
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react-jsx"
   }
 }
