@@ -59,7 +59,7 @@ importers:
 
   packages/eslint-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.16.2
+      '@silverhand/eslint-config': ^0.17.0
       '@types/eslint': ^8.0.0
       eslint: ^8.10.0
       eslint-config-xo-react: ^0.25.0
@@ -87,8 +87,8 @@ importers:
   packages/jest-config:
     specifiers:
       '@jest/types': ^27.5.1
-      '@silverhand/eslint-config': ^0.16.2
-      '@silverhand/ts-config': ^0.16.2
+      '@silverhand/eslint-config': ^0.17.0
+      '@silverhand/ts-config': ^0.17.0
       '@types/node': '16'
       deepmerge: ^4.2.2
       identity-obj-proxy: ^3.0.0
@@ -117,7 +117,7 @@ importers:
 
   packages/ts-config:
     specifiers:
-      '@silverhand/eslint-config': ^0.16.2
+      '@silverhand/eslint-config': ^0.17.0
       '@types/eslint': ^8.0.0
       eslint: ^8.10.0
       prettier: ^2.3.2
@@ -131,9 +131,9 @@ importers:
 
   packages/ts-config-react:
     specifiers:
-      '@silverhand/eslint-config': ^0.16.2
-      '@silverhand/eslint-config-react': ^0.16.3
-      '@silverhand/ts-config': ^0.16.2
+      '@silverhand/eslint-config': ^0.17.0
+      '@silverhand/eslint-config-react': ^0.17.0
+      '@silverhand/ts-config': ^0.17.0
       '@types/react': ^17.0.14
       eslint: ^8.10.0
       prettier: ^2.3.2
