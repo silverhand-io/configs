@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     '@silverhand',
     'xo-react/space',
+    'plugin:react/jsx-runtime',
     // Make sure prettier is the last one
     'plugin:prettier/recommended',
   ],
