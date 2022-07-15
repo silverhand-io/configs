@@ -34,7 +34,13 @@ module.exports = {
     'react/jsx-curly-brace-presence': [
       'error',
       { props: 'never', children: 'never', propElementValues: 'always' },
-    ]
+    ],
+    'react/jsx-no-target-blank': [
+      'error',
+      {
+        allowReferrer: true,
+      },
+    ],
   },
 };
 /* eslint-enable unicorn/prefer-module */
