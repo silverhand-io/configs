@@ -1,7 +1,7 @@
 import type { Config } from '@jest/types';
 import deepmerge from 'deepmerge';
 
-const baseConfig: Config.InitialOptions = Object.freeze({
+const baseConfig: Config.InitialOptions = {
   preset: 'ts-jest',
   transform: {
     // Enable JS/JSX transformation
@@ -25,7 +25,7 @@ const baseConfig: Config.InitialOptions = Object.freeze({
       tsconfig: 'tsconfig.test.json',
     },
   },
-});
+};
 
 export default baseConfig;
 
