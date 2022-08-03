@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-rc.0](https://github.com/silverhand-io/configs/compare/v0.17.0...v1.0.0-rc.0) (2022-08-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** upgrade packages (#68)
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-xo-react to ^0.27.0 ([#46](https://github.com/silverhand-io/configs/issues/46)) ([f238f99](https://github.com/silverhand-io/configs/commit/f238f99320a1ee8164a83bc7052b25865688daa1))
+
+
+### Miscellaneous Chores
+
+* **deps:** upgrade packages ([#68](https://github.com/silverhand-io/configs/issues/68)) ([f2ed3d9](https://github.com/silverhand-io/configs/commit/f2ed3d9ebc38d08a1a923144d92fc4931471223a))
+
+
+
 ## [0.17.0](https://github.com/silverhand-io/configs/compare/v0.16.3...v0.17.0) (2022-07-15)
 
 
