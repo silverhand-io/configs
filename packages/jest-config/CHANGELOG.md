@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-rc.1](https://github.com/silverhand-io/configs/compare/v1.0.0-rc.0...v1.0.0-rc.1) (2022-08-03)
+
+
+### Bug Fixes
+
+* **jest:** config type ([779bb40](https://github.com/silverhand-io/configs/commit/779bb40ef0cc8d807c424160e6e2fd34140c7d6b))
+
+
+
 ## [1.0.0-rc.0](https://github.com/silverhand-io/configs/compare/v0.17.0...v1.0.0-rc.0) (2022-08-03)
 
 
