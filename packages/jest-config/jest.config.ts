@@ -8,7 +8,7 @@ const baseConfig: Config.InitialOptions = {
     '\\.(t|j)sx?$': 'ts-jest',
   },
   transformIgnorePatterns: [
-    '[/\\\\]node_modules[/\\\\]((?!ky[/\\\\]).)+\\.(js|jsx|mjs|cjs|ts|tsx)$',
+    '[/\\\\]node_modules[/\\\\]((?!(ky|nanoid)[/\\\\]).)+\\.(js|jsx|mjs|cjs|ts|tsx)$',
   ],
   moduleNameMapper: {
     // Map path alias in `tsconfig.json`

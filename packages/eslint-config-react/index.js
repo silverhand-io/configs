@@ -42,6 +42,13 @@ module.exports = {
         allowReferrer: true,
       },
     ],
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
 };
 /* eslint-enable unicorn/prefer-module */

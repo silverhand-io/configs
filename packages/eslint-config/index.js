@@ -381,6 +381,18 @@ module.exports = {
         'max-lines': ['error', { max: 400, skipBlankLines: true, skipComments: true }],
       },
     },
+    {
+      files: ['*.test.ts?(x)'],
+      rules: {
+        '@typescript-eslint/no-unsafe-return': 'off',
+      },
+    },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/consistent-type-definitions': 'off',
+      },
+    },
   ],
 };
 /* eslint-enable unicorn/prefer-module */
