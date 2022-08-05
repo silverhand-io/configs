@@ -8,15 +8,13 @@ const baseConfig: Config.InitialOptions = {
     '\\.(t|j)sx?$': 'ts-jest',
   },
   transformIgnorePatterns: [
-    '[/\\\\]node_modules[/\\\\]((?!(ky|nanoid)[/\\\\]).)+\\.(js|jsx|mjs|cjs|ts|tsx)$',
+    '[/\\\\]node_modules[/\\\\]((?!(ky|nanoid|jose)[/\\\\]).)+\\.(js|jsx|mjs|cjs|ts|tsx)$',
   ],
   moduleNameMapper: {
     // Map path alias in `tsconfig.json`
     '^@/(.*)$': '<rootDir>/src/$1',
     // Mock CSS Modules
     '\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
-    // Explicitly point jose to cjs version
-    '^jose/(.*)$': '<rootDir>/node_modules/jose/dist/node/cjs/$1',
   },
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/build/', '/src/__mocks__/'],
   coverageReporters: ['text-summary', 'lcov'],
