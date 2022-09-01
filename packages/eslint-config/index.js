@@ -254,6 +254,7 @@ module.exports = {
     'no-use-extend-native',
     'promise',
     'import',
+    'unused-imports',
     'node',
     'eslint-comments',
     '@silverhand/fp',
@@ -261,6 +262,7 @@ module.exports = {
   ],
   extends: ['plugin:unicorn/recommended', 'xo', 'plugin:prettier/recommended'],
   rules: {
+    'unused-imports/no-unused-imports': 'error',
     'no-use-extend-native/no-use-extend-native': 'error',
     ...promiseRules,
     ...importRules,
