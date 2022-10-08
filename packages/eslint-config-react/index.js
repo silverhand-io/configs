@@ -3,10 +3,12 @@ const replacements = require('./replacements.js');
 
 /** @type {import('eslint').Linter.BaseConfig} **/
 module.exports = {
+  plugins: ['jsx-a11y'],
   extends: [
     '@silverhand',
     'xo-react/space',
     'plugin:react/jsx-runtime',
+    'plugin:jsx-a11y/recommended',
     // Make sure prettier is the last one
     'plugin:prettier/recommended',
   ],
