@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/silverhand-io/configs/compare/v1.0.0...v1.1.0) (2022-10-08)
+
+
+### Features
+
+* **config:** add a11y eslint rule ([#75](https://github.com/silverhand-io/configs/issues/75)) ([7993ce5](https://github.com/silverhand-io/configs/commit/7993ce530ba8dbc5cd46a9befc7698b34799ce7a))
+
+
+
 ## [1.0.0](https://github.com/silverhand-io/configs/compare/v1.0.0-rc.3...v1.0.0) (2022-09-01)
 
 **Note:** Version bump only for package @silverhand/eslint-config-react

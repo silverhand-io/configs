@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/silverhand-io/configs/compare/v1.0.0...v1.1.0) (2022-10-08)
+
+**Note:** Version bump only for package @silverhand/ts-config-react
+
+
+
+
+
 ## [1.0.0](https://github.com/silverhand-io/configs/compare/v1.0.0-rc.3...v1.0.0) (2022-09-01)
 
 **Note:** Version bump only for package @silverhand/ts-config-react
