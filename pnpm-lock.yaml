@@ -28,7 +28,7 @@ importers:
       eslint-plugin-node: ^11.1.0
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-promise: ^6.0.0
-      eslint-plugin-sql: 2.1.0
+      eslint-plugin-sql: 2.2.1
       eslint-plugin-unicorn: ^43.0.2
       eslint-plugin-unused-imports: ^2.0.0
       prettier: ^2.7.1
@@ -48,7 +48,7 @@ importers:
       eslint-plugin-node: 11.1.0_eslint@8.21.0
       eslint-plugin-prettier: 4.2.1_h62lvancfh4b7r6zn2dgodrh5e
       eslint-plugin-promise: 6.0.0_eslint@8.21.0
-      eslint-plugin-sql: 2.1.0_eslint@8.21.0
+      eslint-plugin-sql: 2.2.1_eslint@8.21.0
       eslint-plugin-unicorn: 43.0.2_eslint@8.21.0
       eslint-plugin-unused-imports: 2.0.0_i7ihj7mda6acsfp32zwgvvndem
     devDependencies:
@@ -3624,8 +3624,8 @@ packages:
       string.prototype.matchall: 4.0.6
     dev: false
 
-  /eslint-plugin-sql/2.1.0_eslint@8.21.0:
-    resolution: {integrity: sha512-UPapPPhK1ADgQDTogpApiSAh6bYjrt2daYkKCdApHm5KPbq9qR4ca4TPyYod06bAnLgswbri6Z9gEPAy0R+B1A==}
+  /eslint-plugin-sql/2.2.1_eslint@8.21.0:
+    resolution: {integrity: sha512-e5BaUYZfl3xd6428KW5De/dofhAnitdI3Zu4matpRSg5+swDpAWHKfwLI4rltWmL/XuyB6+LnfvGSjyPf1E62w==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=8.1.0'
