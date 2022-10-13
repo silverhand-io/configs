@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/eslint-config-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Shared ESLint (React) config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
@@ -25,7 +25,7 @@
     "url": "https://github.com/silverhand-io/configs/issues"
   },
   "dependencies": {
-    "@silverhand/eslint-config": "workspace:1.0.0",
+    "@silverhand/eslint-config": "workspace:1.2.0",
     "eslint-config-xo-react": "^0.27.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.29.0",
