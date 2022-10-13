@@ -17,7 +17,7 @@
     "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
-    "test": "eslint \"tests/**\""
+    "lint": "eslint \"tests/**\""
   },
   "bugs": {
     "url": "https://github.com/silverhand-io/configs/issues"
