@@ -17,13 +17,13 @@
     "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
-    "test": "eslint \"tests/**\""
+    "lint": "eslint \"tests/**\""
   },
   "bugs": {
     "url": "https://github.com/silverhand-io/configs/issues"
   },
   "devDependencies": {
-    "@silverhand/eslint-config": "^1.0.0",
+    "@silverhand/eslint-config": "workspace:1.0.0",
     "@types/eslint": "^8.4.5",
     "eslint": "^8.21.0",
     "prettier": "^2.7.1",
