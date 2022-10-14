@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/silverhand-io/configs/compare/v1.2.1...v1.2.2) (2022-10-14)
+
+### Bug Fixes
+
+- **jest:** update config to work with jest v29 ([#82](https://github.com/silverhand-io/configs/issues/82)) ([f12eee5](https://github.com/silverhand-io/configs/commit/f12eee5558acdbcb6234a74be00ca03c9033ca5b))
+
 ## [1.2.1](https://github.com/silverhand-io/configs/compare/v1.2.0...v1.2.1) (2022-10-13)
 
 **Note:** Version bump only for package @silverhand/jest-config
