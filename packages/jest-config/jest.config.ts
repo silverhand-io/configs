@@ -2,14 +2,8 @@ import type { Config } from '@jest/types';
 import deepmerge from 'deepmerge';
 
 const baseConfig: Config.InitialOptions = {
-  preset: 'ts-jest',
-  transform: {
-    // Enable JS/JSX transformation
-    '\\.(t|j)sx?$': 'ts-jest',
-  },
-  transformIgnorePatterns: [
-    '[/\\\\]node_modules[/\\\\]((?!(ky|nanoid|jose)[/\\\\]).)+\\.(js|jsx|mjs|cjs|ts|tsx)$',
-  ],
+  preset: 'ts-jest/presets/js-with-ts',
+  transformIgnorePatterns: ['node_modules/(?!(.*(nanoid|jose|ky))/)'],
   moduleNameMapper: {
     // Map path alias in `tsconfig.json`
     '^@/(.*)$': '<rootDir>/src/$1',
