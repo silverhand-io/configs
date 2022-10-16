@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@changesets/cli": "^2.25.0",
     "conventional-changelog-conventionalcommits": "^5.0.0"
   },
   "scripts": {
