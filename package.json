@@ -2,13 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "lerna": "^5.0.0"
+    "conventional-changelog-conventionalcommits": "^5.0.0"
   },
   "scripts": {
-    "version": "pnpm i --frozen-lockfile=false && git add pnpm-lock.yaml",
-    "lerna": "lerna",
-    "bootstrap": "lerna bootstrap"
+    "version": "pnpm i --frozen-lockfile=false && git add pnpm-lock.yaml"
   },
   "workspaces": [
     "packages/*"
