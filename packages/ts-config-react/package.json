@@ -23,11 +23,11 @@
     "url": "https://github.com/silverhand-io/configs/issues"
   },
   "dependencies": {
-    "@silverhand/ts-config": "^1.2.1"
+    "@silverhand/ts-config": "workspace:^"
   },
   "devDependencies": {
-    "@silverhand/eslint-config": "^1.2.0",
-    "@silverhand/eslint-config-react": "^1.2.1",
+    "@silverhand/eslint-config": "workspace:^",
+    "@silverhand/eslint-config-react": "workspace:^",
     "@types/react": "^17.0.14",
     "eslint": "^8.21.0",
     "prettier": "^2.7.1",
