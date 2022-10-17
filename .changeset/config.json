@@ -3,7 +3,7 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [],
+  "linked": [["@silverhand/eslint-*"], ["@silverhand/ts-*"]],
   "access": "restricted",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",
