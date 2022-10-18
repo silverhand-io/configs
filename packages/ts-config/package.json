@@ -23,7 +23,7 @@
     "url": "https://github.com/silverhand-io/configs/issues"
   },
   "devDependencies": {
-    "@silverhand/eslint-config": "^1.2.0",
+    "@silverhand/eslint-config": "workspace:^",
     "@types/eslint": "^8.4.5",
     "eslint": "^8.21.0",
     "prettier": "^2.7.1",
