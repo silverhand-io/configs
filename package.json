@@ -2,15 +2,11 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "@changesets/cli": "^2.25.0",
-    "conventional-changelog-conventionalcommits": "^5.0.0"
+    "@changesets/cli": "^2.25.0"
   },
   "scripts": {
-    "version": "pnpm i --frozen-lockfile=false && git add pnpm-lock.yaml"
+    "ci:publish": "pnpm -r publish && changeset tag && git push --tags"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "engines": {
     "node": "^16.0.0 || ^18.0.0",
     "pnpm": "^7.0.0"
