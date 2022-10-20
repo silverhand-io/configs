@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.3.0
+
+### Minor Changes
+
+- ac5e658: Bump XO config versions
+
+  - `eslint-config-xo` ^0.42.0
+  - `eslint-config-xo-typescript` ^0.53.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
