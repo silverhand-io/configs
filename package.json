@@ -4,9 +4,6 @@
   "devDependencies": {
     "@changesets/cli": "^2.25.0"
   },
-  "scripts": {
-    "ci:publish": "pnpm -r publish && changeset tag && git push --tags"
-  },
   "engines": {
     "node": "^16.0.0 || ^18.0.0",
     "pnpm": "^7.0.0"

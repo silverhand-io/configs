@@ -1,0 +1,24 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - '*/*@*.*.*'
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  publish-to-npm:
+    environment: npm
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node and pnpm
+        uses: silverhand-io/actions-node-pnpm-run-steps@v2
+
+      - name: Publish to NPM
+        run: pnpm -r publish
