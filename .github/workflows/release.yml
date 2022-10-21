@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Node and pnpm
         uses: silverhand-io/actions-node-pnpm-run-steps@v2
@@ -23,6 +25,7 @@ jobs:
           passphrase: ${{ secrets.BOT_GPG_PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
+          git_tag_gpgsign: true
 
       - name: Configure Git user
         run: |
@@ -32,10 +35,9 @@ jobs:
       - name: Create release pull request
         uses: changesets/action@v1
         with:
-          publish: pnpm ci:publish
+          publish: changeset tag
           commit: 'release: version packages'
           title: 'release: version packages'
           setupGitUser: false
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
-          NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
