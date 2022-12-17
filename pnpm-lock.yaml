@@ -134,7 +134,7 @@ importers:
       '@silverhand/eslint-config': workspace:^
       '@silverhand/eslint-config-react': workspace:^
       '@silverhand/ts-config': workspace:^
-      '@types/react': ^17.0.14
+      '@types/react': ^18.0.0
       eslint: ^8.21.0
       prettier: ^2.7.1
       react: ^17.0.2
@@ -145,7 +145,7 @@ importers:
     devDependencies:
       '@silverhand/eslint-config': link:../eslint-config
       '@silverhand/eslint-config-react': link:../eslint-config-react
-      '@types/react': 17.0.15
+      '@types/react': 18.0.26
       eslint: 8.21.0
       prettier: 2.7.1
       react: 17.0.2
@@ -1126,8 +1126,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react/17.0.15:
-    resolution: {integrity: sha512-uTKHDK9STXFHLaKv6IMnwp52fm0hwU+N89w/p9grdUqcFA6WuqDyPhaWopbNyE1k/VhgzmHl8pu1L4wITtmlLw==}
+  /@types/react/18.0.26:
+    resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
