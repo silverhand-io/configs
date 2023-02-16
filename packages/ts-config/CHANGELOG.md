@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.1
+
+### Patch Changes
+
+- 7087640: Update TypeScript config
+
 ## 2.0.0
 
 ### Major Changes

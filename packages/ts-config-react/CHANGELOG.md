@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies [7087640]
+  - @silverhand/ts-config@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
