@@ -1,5 +1,16 @@
 # Change Log
 
+## 2.0.0
+
+### Major Changes
+
+- 81aff27: Update dependencies and rules to fit the latest core change (ESM + upgrades)
+
+### Patch Changes
+
+- Updated dependencies [81aff27]
+  - @silverhand/eslint-config@2.0.0
+
 ## 1.3.0
 
 ### Patch Changes
