@@ -51,6 +51,7 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    complexity: ['error', { max: 21 }],
   },
 };
 /* eslint-enable unicorn/prefer-module */

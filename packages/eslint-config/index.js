@@ -302,6 +302,11 @@ module.exports = {
             prev: '*',
             next: ['interface', 'type', 'block-like', 'return'],
           },
+          {
+            blankLine: 'any',
+            prev: 'case',
+            next: ['block-like'],
+          },
         ],
         '@typescript-eslint/no-unnecessary-condition': 'error',
         /**
@@ -377,6 +382,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-unsafe-return': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-non-null-assertion': 'off',
       },
     },
     {
