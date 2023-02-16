@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.0.1
+
+### Patch Changes
+
+- 4e6f792: Fix conflict rules and update complexity for React files
+- Updated dependencies [4e6f792]
+  - @silverhand/eslint-config@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
