@@ -9,20 +9,7 @@ const replacements = require('./replacements.js');
 const importRules = {
   'import/default': 'error',
   'import/export': 'error',
-  'import/extensions': [
-    'error',
-    'always',
-    {
-      ignorePackages: true,
-      // TypeScript doesn't yet support using extensions and fails with error TS2691.
-      pattern: {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    },
-  ],
+  'import/extensions': 'off',
   'import/first': 'error',
 
   // Disabled as it doesn't work with TypeScript.
@@ -273,7 +260,7 @@ module.exports = {
     ...sqlRules,
     // https://github.com/prettier/eslint-config-prettier#curly
     curly: ['error', 'all'],
-    complexity: ['error', { max: 7 }],
+    complexity: ['error', { max: 11 }],
     'max-lines': ['error', { max: 300, skipBlankLines: true, skipComments: true }],
   },
   overrides: [
@@ -339,6 +326,8 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-explicit-any': 'error',
+        /** No need as we have exhaustiveness check */
+        'default-case': 'off',
       },
       parserOptions: {
         project: '**/tsconfig.json',
@@ -387,6 +376,7 @@ module.exports = {
       files: ['*.test.ts?(x)'],
       rules: {
         '@typescript-eslint/no-unsafe-return': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
       },
     },
     {
