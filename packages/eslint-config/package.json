@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "@types/eslint": "^8.4.5",
-    "eslint": "^8.21.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "@silverhand/eslint-plugin-fp": "^2.5.0",
@@ -46,15 +46,15 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-sql": "2.1.0",
-    "eslint-plugin-unicorn": "^44.0.0",
+    "eslint-plugin-unicorn": "^45.0.2",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.21.0",
-    "prettier": "^2.7.1"
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.2"
   },
   "engines": {
-    "node": "^16.0.0 || ^18.0.0"
+    "node": "^18.12.0"
   },
   "eslintConfig": {
     "extends": "."

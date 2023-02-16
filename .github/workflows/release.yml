@@ -35,7 +35,7 @@ jobs:
       - name: Create release pull request
         uses: changesets/action@v1
         with:
-          publish: changeset tag
+          publish: pnpm changeset tag
           commit: 'release: version packages'
           title: 'release: version packages'
           setupGitUser: false
