@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.2
+
+### Patch Changes
+
+- 006514e: Tweak tsconfig to fit our dev env
+
 ## 2.0.1
 
 ### Patch Changes
