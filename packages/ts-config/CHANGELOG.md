@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.3
+
+### Patch Changes
+
+- d231fb4: Update target to esnext and compiler option
+
 ## 2.0.2
 
 ### Patch Changes
