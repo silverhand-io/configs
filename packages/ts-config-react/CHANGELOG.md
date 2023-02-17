@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.0.2
+
+### Patch Changes
+
+- 006514e: Tweak tsconfig to fit our dev env
+- Updated dependencies [006514e]
+  - @silverhand/ts-config@2.0.2
+
 ## 2.0.1
 
 ### Patch Changes
