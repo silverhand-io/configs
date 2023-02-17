@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [d231fb4]
+  - @silverhand/ts-config@2.0.3
+
 ## 2.0.2
 
 ### Patch Changes
