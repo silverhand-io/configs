@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "esnext",
+    "useDefineForClassFields": false, // update until https://github.com/microsoft/TypeScript/issues/50971 is fixed
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
