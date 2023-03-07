@@ -17,7 +17,7 @@ importers:
       eslint: ^8.34.0
       eslint-config-prettier: ^8.5.0
       eslint-config-xo: ^0.42.0
-      eslint-config-xo-typescript: ^0.53.0
+      eslint-config-xo-typescript: ^0.56.0
       eslint-import-resolver-typescript: ^3.4.0
       eslint-plugin-consistent-default-export-name: ^0.0.15
       eslint-plugin-eslint-comments: ^3.2.0
@@ -37,7 +37,7 @@ importers:
       '@typescript-eslint/parser': 5.32.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint-config-prettier: 8.5.0_eslint@8.34.0
       eslint-config-xo: 0.42.0_eslint@8.34.0
-      eslint-config-xo-typescript: 0.53.0_bq2s2voqawzuioaggsp3fpvdmq
+      eslint-config-xo-typescript: 0.56.0_bq2s2voqawzuioaggsp3fpvdmq
       eslint-import-resolver-typescript: 3.4.0_w7dy265x2bmlgtc6kmsfumkjde
       eslint-plugin-consistent-default-export-name: 0.0.15
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.34.0
@@ -2109,12 +2109,12 @@ packages:
       eslint-plugin-react-hooks: 4.3.0_eslint@8.34.0
     dev: false
 
-  /eslint-config-xo-typescript/0.53.0_bq2s2voqawzuioaggsp3fpvdmq:
-    resolution: {integrity: sha512-IJ1n70egMPTou/41HoGGFbLf/2WCsVW5lSUxOSklrR8T1221fMRPVJxIVZ3evr8R+N5wR6uzg/0uzSymwWA5Bg==}
+  /eslint-config-xo-typescript/0.56.0_bq2s2voqawzuioaggsp3fpvdmq:
+    resolution: {integrity: sha512-JOuV9M6R0BphdWome5SiolbsZFpw5DX83HgUaIUoEZwkk0hDv+fmPoHNc3KwmoON5QEkuBxlIbW0o3PifzPCuw==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': '>=5.31.0'
-      '@typescript-eslint/parser': '>=5.31.0'
+      '@typescript-eslint/eslint-plugin': '>=5.43.0'
+      '@typescript-eslint/parser': '>=5.43.0'
       eslint: '>=8.0.0'
       typescript: '>=4.4'
     dependencies:
