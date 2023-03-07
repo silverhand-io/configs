@@ -5,8 +5,9 @@
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
   "license": "MIT",
-  "module": "./index.js",
-  "types": "./index.d.ts",
+  "main": "jest.config.js",
+  "module": "jest.config.js",
+  "types": "jest.config.d.ts",
   "files": [
     "jest.config.d.ts",
     "jest.config.js"
