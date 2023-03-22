@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.1.0
+
+### Patch Changes
+
+- 0ac88ef: add TypeScript ^5.0.0 in peer dependency
+- Updated dependencies [0ac88ef]
+- Updated dependencies [8f8d731]
+  - @silverhand/ts-config@2.1.0
+
 ## 2.0.3
 
 ### Patch Changes
