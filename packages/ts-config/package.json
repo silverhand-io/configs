@@ -38,6 +38,5 @@
   "eslintConfig": {
     "extends": "@silverhand"
   },
-  "prettier": "@silverhand/eslint-config/.prettierrc",
-  "gitHead": "6b4f64d53c03a57da1b541531a92c7ad5d7b96ff"
+  "prettier": "@silverhand/eslint-config/.prettierrc"
 }
