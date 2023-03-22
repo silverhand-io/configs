@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.1.0
+
+### Patch Changes
+
+- Updated dependencies [8f8d731]
+  - @silverhand/eslint-config@2.1.0
+
 ## 2.0.1
 
 ### Patch Changes

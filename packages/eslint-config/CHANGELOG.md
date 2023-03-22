@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.1.0
+
+### Minor Changes
+
+- 8f8d731: - update dependency eslint-config-xo-typescript to ^0.56.0
+  - update various dependencies
+
 ## 2.0.1
 
 ### Patch Changes
