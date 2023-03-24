@@ -1,5 +1,17 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- 5152f74: prefer node protocol
+- 5152f74: update TypeScript to v5
+- 5152f74: make "parent" an independent import order group
+
+### Patch Changes
+
+- 5152f74: allow abbreviations "arg", "param", and "params"
+
 ## 2.1.0
 
 ### Minor Changes

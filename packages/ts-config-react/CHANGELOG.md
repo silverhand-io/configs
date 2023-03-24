@@ -1,5 +1,16 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- 5152f74: update TypeScript to v5
+
+### Patch Changes
+
+- Updated dependencies [5152f74]
+  - @silverhand/ts-config@3.0.0
+
 ## 2.1.0
 
 ### Patch Changes
