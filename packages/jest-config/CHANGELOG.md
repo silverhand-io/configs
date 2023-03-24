@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- 5152f74: update TypeScript to v5
+
 ## 2.0.1
 
 ### Patch Changes
