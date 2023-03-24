@@ -60,7 +60,7 @@ const importRules = {
   'import/order': [
     'error',
     {
-      groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
+      groups: ['builtin', 'external', 'internal', 'parent', ['sibling', 'index']],
       pathGroups: [
         {
           pattern: '@/**',
@@ -195,7 +195,7 @@ const unicornRules = {
   ],
   'unicorn/prevent-abbreviations': ['error', { replacements }],
   'unicorn/no-null': 'off',
-  'unicorn/prefer-node-protocol': 'off',
+  'unicorn/prefer-node-protocol': 'error',
   // Conflict with `@silverhand/fp/no-mutating-methods` when calling `.slice().sort()`
   'unicorn/prefer-spread': 'off',
 };
