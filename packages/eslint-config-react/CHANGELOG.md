@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated dependencies [f5f0d6c]
+  - @silverhand/eslint-config@3.0.1
+
 ## 3.0.0
 
 ### Major Changes

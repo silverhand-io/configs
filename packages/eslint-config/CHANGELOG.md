@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.0.1
+
+### Patch Changes
+
+- f5f0d6c: disable padding-line-between-statements rules
+
 ## 3.0.0
 
 ### Major Changes
