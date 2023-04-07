@@ -262,6 +262,7 @@ module.exports = {
     curly: ['error', 'all'],
     complexity: ['error', { max: 11 }],
     'max-lines': ['error', { max: 300, skipBlankLines: true, skipComments: true }],
+    'padding-line-between-statements': 'off',
   },
   overrides: [
     {
@@ -294,20 +295,15 @@ module.exports = {
          * https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L446
          */
         '@typescript-eslint/no-non-null-assertion': 'error',
+        /**
+         * See below for why we turn off these rules:
+         *
+         * https://typescript-eslint.io/rules/padding-line-between-statements/
+         * https://typescript-eslint.io/linting/troubleshooting/formatting/
+         * https://github.com/typescript-eslint/typescript-eslint/issues/6291
+         */
         'padding-line-between-statements': 'off',
-        '@typescript-eslint/padding-line-between-statements': [
-          'error',
-          {
-            blankLine: 'always',
-            prev: '*',
-            next: ['interface', 'type', 'block-like', 'return'],
-          },
-          {
-            blankLine: 'any',
-            prev: 'case',
-            next: ['block-like'],
-          },
-        ],
+        '@typescript-eslint/padding-line-between-statements': 'off',
         '@typescript-eslint/no-unnecessary-condition': 'error',
         /**
          * https://eslint.org/docs/rules/id-length
