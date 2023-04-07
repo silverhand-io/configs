@@ -23,8 +23,8 @@ importers:
         specifier: ^8.8.0
         version: 8.8.0(eslint@8.34.0)
       eslint-config-xo:
-        specifier: ^0.42.0
-        version: 0.42.0(eslint@8.34.0)
+        specifier: ^0.43.0
+        version: 0.43.0(eslint@8.34.0)
       eslint-config-xo-typescript:
         specifier: ^0.56.0
         version: 0.56.0(@typescript-eslint/eslint-plugin@5.56.0)(@typescript-eslint/parser@5.56.0)(eslint@8.34.0)(typescript@5.0.2)
@@ -2224,11 +2224,11 @@ packages:
       typescript: 5.0.2
     dev: false
 
-  /eslint-config-xo@0.42.0(eslint@8.34.0):
-    resolution: {integrity: sha512-HIfd+AM6tHFoaZ/NXYDV3Mr/CJrAj/DoP6IOYt1/v+90XtCwVYOfW7LXbRDYDmhQMzT16h7eqPRcex72waRqdA==}
+  /eslint-config-xo@0.43.0(eslint@8.34.0):
+    resolution: {integrity: sha512-iQ8tp4aP7BgYaY+ILZWdbM3j2L6ayyoU89wp7jmqLjhm8quo0YnmmsGk5KQPLSs0tA8o4V3NkaTC+RE/uy4GaQ==}
     engines: {node: '>=12'}
     peerDependencies:
-      eslint: '>=8.14.0'
+      eslint: '>=8.27.0'
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.34.0
