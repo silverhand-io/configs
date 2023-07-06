@@ -1,5 +1,16 @@
 # Change Log
 
+## 4.0.0
+
+### Major Changes
+
+- 2725bf4: BREAKING: Upgrade packages
+
+  Notable changes:
+
+  - Upgrade `prettier` to `3.0.0`
+  - Upgrade `eslint-plugin-prettier` to `^5.0.0-alpha.0`
+
 ## 3.0.0
 
 ### Major Changes
