@@ -4,8 +4,7 @@
 
 ### Patch Changes
 
-- 80979ef: feat(config): allow the use of the abbreviation 'dev'
-- Updated dependencies [80979ef]
+- Updated dependencies [ee44ebb]
   - @silverhand/eslint-config@4.0.1
 
 ## 4.0.0
