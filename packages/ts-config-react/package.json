@@ -29,8 +29,8 @@
     "@silverhand/eslint-config": "workspace:^",
     "@silverhand/eslint-config-react": "workspace:^",
     "@types/react": "^18.0.28",
-    "eslint": "^8.34.0",
-    "prettier": "^2.8.4",
+    "eslint": "^8.44.0",
+    "prettier": "^3.0.0",
     "react": "^18.2.0",
     "stylelint": "^15.0.0",
     "typescript": "^5.0.0"
