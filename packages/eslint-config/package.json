@@ -46,7 +46,7 @@
     "eslint-plugin-prettier": "^5.0.0-alpha.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sql": "2.1.0",
-    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unicorn": "^48.0.0",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "peerDependencies": {
