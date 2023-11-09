@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.0.1
+
+### Patch Changes
+
+- 80979ef: feat(config): allow the use of the abbreviation 'dev'
+
 ## 4.0.0
 
 ### Major Changes
