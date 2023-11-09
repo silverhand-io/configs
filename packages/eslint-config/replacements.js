@@ -8,5 +8,6 @@ module.exports = {
   args: false,
   param: false,
   params: false,
+  dev: false,
 };
 /* eslint-enable unicorn/prefer-module */
