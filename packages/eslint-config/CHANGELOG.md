@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.0.2
+
+### Patch Changes
+
+- 9fcf848: force bump version to include unpublished changes
+
 ## 4.0.1
 
 ### Patch Changes
