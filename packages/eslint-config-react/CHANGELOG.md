@@ -1,5 +1,13 @@
 # Change Log
 
+## 4.0.2
+
+### Patch Changes
+
+- 9fcf848: force bump version to include unpublished changes
+- Updated dependencies [9fcf848]
+  - @silverhand/eslint-config@4.0.2
+
 ## 4.0.1
 
 ### Patch Changes
