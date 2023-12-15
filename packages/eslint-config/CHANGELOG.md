@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- 80979ef: feat(config): allow the use of the abbreviation 'dev'
+- ee44ebb: Fix eslint peer dependency version
 
 ## 4.0.0
 
