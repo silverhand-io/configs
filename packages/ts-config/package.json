@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/ts-config",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Common TypeScript config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",

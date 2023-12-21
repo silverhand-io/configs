@@ -1,5 +1,19 @@
 # Change Log
 
+## 5.0.0
+
+### Major Changes
+
+- 8d95e39: upgrade typescript and node versions
+
+  - upgrade typescript to 5.3.3
+  - upgrade node to 20.9.0 (LTS)
+
+### Patch Changes
+
+- Updated dependencies [8d95e39]
+  - @silverhand/eslint-config@5.0.0
+
 ## 4.0.2
 
 ### Patch Changes
