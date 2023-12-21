@@ -33,13 +33,13 @@
     "prettier": "^3.0.0",
     "react": "^18.2.0",
     "stylelint": "^15.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.3.3"
   },
   "engines": {
-    "node": "^18.12.0"
+    "node": "^20.9.0"
   },
   "eslintConfig": {
     "extends": "@silverhand/react"
