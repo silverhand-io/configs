@@ -1,5 +1,21 @@
 # Change Log
 
+## 5.0.0
+
+### Major Changes
+
+- 8d95e39: upgrade typescript and node versions
+
+  - upgrade typescript to 5.3.3
+  - upgrade node to 20.9.0 (LTS)
+
+### Patch Changes
+
+- 8d95e39: update typescript module configs
+
+  - update `module` to `nodenext` to match the new typescript requirement
+  - update `moduleResolution` to `bundler` and `module` to `esnext` for react typescript config
+
 ## 4.0.0
 
 ### Major Changes

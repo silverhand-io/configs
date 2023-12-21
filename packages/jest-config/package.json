@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/jest-config",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Shared ESLint config for Silverhand.",
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
