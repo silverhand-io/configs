@@ -30,8 +30,8 @@ importers:
         specifier: ^0.43.1
         version: 0.43.1(eslint@8.44.0)
       eslint-config-xo-typescript:
-        specifier: ^0.57.0
-        version: 0.57.0(@typescript-eslint/eslint-plugin@5.61.0)(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.3.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@typescript-eslint/eslint-plugin@5.61.0)(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.3.3)
       eslint-import-resolver-typescript:
         specifier: ^3.5.5
         version: 3.5.5(@typescript-eslint/parser@5.61.0)(eslint-plugin-import@2.27.5)(eslint@8.44.0)
@@ -2250,14 +2250,14 @@ packages:
       eslint-plugin-react-hooks: 4.6.0(eslint@8.44.0)
     dev: false
 
-  /eslint-config-xo-typescript@0.57.0(@typescript-eslint/eslint-plugin@5.61.0)(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-u+qcTaADHn2/+hbDqZHRWiAps8JS6BcRsJKAADFxYHIPpYqQeQv9mXuhRe/1+ikfZAIz9hlG1V+Lkj8J7nf34A==}
-    engines: {node: '>=12'}
+  /eslint-config-xo-typescript@2.0.0(@typescript-eslint/eslint-plugin@5.61.0)(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-Z6LxmerEsGzLH4niSgfD/ZfqnCkOWZmE1XPnbU9gyYRQbHFZUkjstvi2prvGF9ToXkTDBiBZWvAWwNw9F2lFHg==}
+    engines: {node: '>=18'}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': '>=5.57.0'
-      '@typescript-eslint/parser': '>=5.57.0'
-      eslint: '>=8.0.0'
-      typescript: '>=4.4'
+      '@typescript-eslint/eslint-plugin': '>=6.21.0'
+      '@typescript-eslint/parser': '>=6.21.0'
+      eslint: '>=8.56.0'
+      typescript: '>=5.0.0'
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.61.0(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 5.61.0(eslint@8.44.0)(typescript@5.3.3)
