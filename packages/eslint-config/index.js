@@ -242,7 +242,7 @@ module.exports = {
     'promise',
     'import',
     'unused-imports',
-    'node',
+    'n',
     'eslint-comments',
     '@silverhand/fp',
     'sql',
