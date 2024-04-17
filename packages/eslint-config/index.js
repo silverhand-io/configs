@@ -94,30 +94,30 @@ const importRules = {
 /** @type {import('eslint').Linter.RulesRecord} **/
 const nodeRules = {
   // Redundant with `import/no-extraneous-dependencies`.
-  // 'node/no-extraneous-import': 'error',
-  // 'node/no-extraneous-require': 'error',
+  // 'n/no-extraneous-import': 'error',
+  // 'n/no-extraneous-require': 'error',
 
   // Redundant with `import/no-unresolved`.
-  // 'node/no-missing-import': 'error', // This rule is also buggy and doesn't support `node:`.
-  // 'node/no-missing-require': 'error',
+  // 'n/no-missing-import': 'error', // This rule is also buggy and doesn't support `node:`.
+  // 'n/no-missing-require': 'error',
 
-  'node/no-unpublished-bin': 'error',
+  'n/no-unpublished-bin': 'error',
 
   // This works as an auto-fix in addition to `import/extensions`, and currently we do not want to enable it.
-  'node/file-extension-in-import': 'off',
-  'node/no-mixed-requires': [
+  'n/file-extension-in-import': 'off',
+  'n/no-mixed-requires': [
     'error',
     {
       grouping: true,
       allowCall: true,
     },
   ],
-  'node/no-new-require': 'error',
-  'node/no-path-concat': 'error',
+  'n/no-new-require': 'error',
+  'n/no-path-concat': 'error',
 
   // Disabled because they're too annoying, see:
   // https://github.com/mysticatea/eslint-plugin-node/issues/105
-  // 'node/no-unpublished-import': [
+  // 'n/no-unpublished-import': [
   // 	'error',
   // 	{
   // 		allowModules: [
@@ -126,7 +126,7 @@ const nodeRules = {
   // 		]
   // 	}
   // ],
-  // 'node/no-unpublished-require': [
+  // 'n/no-unpublished-require': [
   // 	'error',
   // 	{
   // 		allowModules: [
@@ -136,21 +136,21 @@ const nodeRules = {
   // 	}
   // ],
 
-  'node/process-exit-as-throw': 'error',
+  'n/process-exit-as-throw': 'error',
 
   // Disabled as the rule doesn't exclude scripts executed with `node` but not referenced in 'bin'. See https://github.com/mysticatea/eslint-plugin-node/issues/96
-  // 'node/shebang': 'error',
+  // 'n/shebang': 'error',
 
-  'node/no-deprecated-api': 'error',
-  'node/prefer-global/buffer': ['error', 'always'],
-  'node/prefer-global/console': ['error', 'always'],
-  'node/prefer-global/process': ['error', 'always'],
-  'node/prefer-global/text-decoder': ['error', 'always'],
-  'node/prefer-global/text-encoder': ['error', 'always'],
-  'node/prefer-global/url-search-params': ['error', 'always'],
-  'node/prefer-global/url': ['error', 'always'],
-  'node/prefer-promises/dns': 'error',
-  'node/prefer-promises/fs': 'error',
+  'n/no-deprecated-api': 'error',
+  'n/prefer-global/buffer': ['error', 'always'],
+  'n/prefer-global/console': ['error', 'always'],
+  'n/prefer-global/process': ['error', 'always'],
+  'n/prefer-global/text-decoder': ['error', 'always'],
+  'n/prefer-global/text-encoder': ['error', 'always'],
+  'n/prefer-global/url-search-params': ['error', 'always'],
+  'n/prefer-global/url': ['error', 'always'],
+  'n/prefer-promises/dns': 'error',
+  'n/prefer-promises/fs': 'error',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} **/
@@ -242,7 +242,7 @@ module.exports = {
     'promise',
     'import',
     'unused-imports',
-    'node',
+    'n',
     'eslint-comments',
     '@silverhand/fp',
     'sql',
