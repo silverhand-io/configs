@@ -1,6 +1,6 @@
 {
   "name": "@silverhand/ts-config-react",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Common TypeScript (React) config for Silverhand.",
   "author": "Gao Sun <gaosun.dev@gmail.com>",
   "homepage": "https://github.com/silverhand-io/configs#readme",
