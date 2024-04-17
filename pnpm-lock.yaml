@@ -24,8 +24,8 @@ importers:
         specifier: ^5.61.0
         version: 5.61.0(eslint@8.57.0)(typescript@5.3.3)
       eslint-config-prettier:
-        specifier: ^8.8.0
-        version: 8.8.0(eslint@8.57.0)
+        specifier: ^9.0.0
+        version: 9.1.0(eslint@8.57.0)
       eslint-config-xo:
         specifier: ^0.43.1
         version: 0.43.1(eslint@8.57.0)
@@ -52,7 +52,7 @@ importers:
         version: 11.1.0(eslint@8.57.0)
       eslint-plugin-prettier:
         specifier: ^5.0.0-alpha.0
-        version: 5.0.0-alpha.0(@types/eslint@8.40.2)(eslint-config-prettier@8.8.0)(eslint@8.57.0)(prettier@3.0.0)
+        version: 5.0.0-alpha.0(@types/eslint@8.40.2)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.0.0)
       eslint-plugin-promise:
         specifier: ^6.1.1
         version: 6.1.1(eslint@8.57.0)
@@ -2236,8 +2236,8 @@ packages:
       lodash.zip: 4.2.0
     dev: false
 
-  /eslint-config-prettier@8.8.0(eslint@8.57.0):
-    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+  /eslint-config-prettier@9.1.0(eslint@8.57.0):
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2460,7 +2460,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier@5.0.0-alpha.0(@types/eslint@8.40.2)(eslint-config-prettier@8.8.0)(eslint@8.57.0)(prettier@3.0.0):
+  /eslint-plugin-prettier@5.0.0-alpha.0(@types/eslint@8.40.2)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.0.0):
     resolution: {integrity: sha512-ZFQYCs/SGj4eVRtBGdG+ZNcV0N8QJstm03SQL8e0I/A/5VGJfH0kX88shUv5cHWFN6xTuISGvAG6XVCYUT1YVw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2476,7 +2476,7 @@ packages:
     dependencies:
       '@types/eslint': 8.40.2
       eslint: 8.57.0
-      eslint-config-prettier: 8.8.0(eslint@8.57.0)
+      eslint-config-prettier: 9.1.0(eslint@8.57.0)
       prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: false
