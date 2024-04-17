@@ -1,5 +1,18 @@
 # Change Log
 
+## 6.0.0
+
+### Major Changes
+
+- 01c3b85: upgrade dependencies
+
+  Upgrade a lot of dependencies. See commit history for details.
+
+### Patch Changes
+
+- Updated dependencies [01c3b85]
+  - @silverhand/eslint-config@6.0.0
+
 ## 5.0.0
 
 ### Major Changes
