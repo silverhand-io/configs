@@ -10,7 +10,7 @@
   "pnpm": {
     "peerDependencyRules": {
       "allowedVersions": {
-        "stylelint": "^15.0.0"
+        "stylelint": "^16.0.0"
       }
     }
   },
