@@ -1,5 +1,12 @@
 # Change Log
 
+## 6.0.1
+
+### Patch Changes
+
+- Updated dependencies [80f910b]
+  - @silverhand/eslint-config@6.0.1
+
 ## 6.0.0
 
 ### Major Changes

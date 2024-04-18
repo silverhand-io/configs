@@ -1,5 +1,11 @@
 # Change Log
 
+## 6.0.1
+
+### Patch Changes
+
+- 80f910b: turn off `@typescript-eslint/no-unsafe-enum-comparison`
+
 ## 6.0.0
 
 ### Major Changes
