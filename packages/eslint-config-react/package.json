@@ -9,7 +9,8 @@
   "files": [
     "index.js",
     "replacements.js",
-    ".stylelintrc.json"
+    ".stylelintrc.json",
+    "stylelint-config-xo-scss.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -19,7 +20,8 @@
     "url": "git+https://github.com/silverhand-io/configs.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "stylelint": "stylelint tests/**/*.scss",
+    "test": "pnpm stylelint"
   },
   "bugs": {
     "url": "https://github.com/silverhand-io/configs/issues"
@@ -30,18 +32,20 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "stylelint-config-xo-scss": "^0.15.0"
+    "postcss-scss": "^4.0.9",
+    "stylelint-config-xo": "^0.22.0",
+    "stylelint-scss": "^6.2.1"
   },
   "devDependencies": {
     "@types/eslint": "^8.40.2",
     "eslint": "^8.57.0",
     "postcss": "^8.4.24",
     "prettier": "^3.0.0",
-    "stylelint": "^16.0.0",
+    "stylelint": "^15.0.0",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "stylelint": "^16.0.0"
+    "stylelint": "^15.0.0"
   },
   "engines": {
     "node": "^20.9.0"
