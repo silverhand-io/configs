@@ -327,6 +327,8 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-explicit-any': 'error',
+        /** This brings more trouble than it solves. We have a lot of dynamic enum checks. */
+        '@typescript-eslint/no-unsafe-enum-comparison': 'off',
         /** No need as we have exhaustiveness check */
         'default-case': 'off',
       },
