@@ -100,8 +100,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9(postcss@8.4.31)
       stylelint-config-xo:
-        specifier: ^0.22.0
-        version: 0.22.0(stylelint@15.11.0)
+        specifier: ^1.0.0
+        version: 1.0.0(stylelint@15.11.0)
       stylelint-scss:
         specifier: ^6.2.1
         version: 6.2.1(stylelint@15.11.0)
@@ -532,6 +532,22 @@ packages:
       eslint-ast-utils: 1.1.0
       import-modules: 2.1.0
       lodash: 4.17.21
+    dev: false
+
+  /@stylistic/stylelint-plugin@2.1.2(stylelint@15.11.0):
+    resolution: {integrity: sha512-JsSqu0Y3vsX+PBl+DwULxC0cIv9C1yIcq1MXkx7pBOGtTqU26a75I8MPYMiEYvrsXgsKLi65xVgy1iLVSZquJA==}
+    engines: {node: ^18.12 || >=20.9}
+    peerDependencies:
+      stylelint: ^16.0.2 || ^16.0.0
+    dependencies:
+      '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
+      '@csstools/css-tokenizer': 2.2.4
+      '@csstools/media-query-list-parser': 2.1.9(@csstools/css-parser-algorithms@2.6.1)(@csstools/css-tokenizer@2.2.4)
+      is-plain-object: 5.0.0
+      postcss-selector-parser: 6.0.16
+      postcss-value-parser: 4.2.0
+      style-search: 0.1.0
+      stylelint: 15.11.0(typescript@5.3.3)
     dev: false
 
   /@types/eslint@8.40.2:
@@ -4007,19 +4023,20 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-config-xo@0.22.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-E4IoDwgJqG+Q3LjeZGXNi3uOXOH5Sx6mCyxp1V4eaAm1DhuA+3X40c2GtobEIHfCv6itN/T3QKRb4V4/snIxUg==}
-    engines: {node: '>=16'}
+  /stylelint-config-xo@1.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-BAe1nO1rkHCMwU+oxTFsi1tW93/3VgdRcs47e1yd5jVDQAupqzTNXeADyENDNftj3DGkRE08Udu7v+Xv1TDj8w==}
+    engines: {node: '>=18'}
     peerDependencies:
-      stylelint: '>=14 || ^16.0.0'
+      stylelint: '>=16 || ^16.0.0'
     dependencies:
+      '@stylistic/stylelint-plugin': 2.1.2(stylelint@15.11.0)
       stylelint: 15.11.0(typescript@5.3.3)
-      stylelint-declaration-block-no-ignored-properties: 2.7.0(stylelint@15.11.0)
+      stylelint-declaration-block-no-ignored-properties: 2.8.0(stylelint@15.11.0)
       stylelint-order: 6.0.4(stylelint@15.11.0)
     dev: false
 
-  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
+  /stylelint-declaration-block-no-ignored-properties@2.8.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-Ws8Cav7Y+SPN0JsV407LrnNXWOrqGjxShf+37GBtnU/C58Syve9c0+I/xpLcFOosST3ternykn3Lp77f3ITnFw==}
     engines: {node: '>=6'}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
