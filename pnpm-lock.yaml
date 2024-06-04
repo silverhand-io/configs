@@ -48,8 +48,8 @@ importers:
         specifier: ^17.0.0
         version: 17.2.1(eslint@8.57.0)
       eslint-plugin-no-use-extend-native:
-        specifier: ^0.5.0
-        version: 0.5.0
+        specifier: ^0.7.0
+        version: 0.7.0(eslint@8.57.0)
       eslint-plugin-prettier:
         specifier: ^5.1.3
         version: 5.1.3(@types/eslint@8.40.2)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.0.0)
@@ -1842,14 +1842,17 @@ packages:
       semver: 7.6.0
     dev: false
 
-  /eslint-plugin-no-use-extend-native@0.5.0:
-    resolution: {integrity: sha512-dBNjs8hor8rJgeXLH4HTut5eD3RGWf9JUsadIfuL7UosVQ/dnvOKwxEcRrXrFxrMZ8llUVWT+hOimxJABsAUzQ==}
-    engines: {node: '>=6.0.0'}
+  /eslint-plugin-no-use-extend-native@0.7.0(eslint@8.57.0):
+    resolution: {integrity: sha512-DdaYulfC0pSPO9k1yKWOCYjzssbuemCEWnbW0PiD5BWCrVAk7Z89mMJE82Fj7FhYRb8mjR1DVmpiFRNU2C4dWw==}
+    engines: {node: '>=18.18.0'}
+    peerDependencies:
+      eslint: ^9.3.0
     dependencies:
-      is-get-set-prop: 1.0.0
-      is-js-type: 2.0.0
-      is-obj-prop: 1.0.0
-      is-proto-prop: 2.0.0
+      eslint: 8.57.0
+      is-get-set-prop: 2.0.0
+      is-js-type: 3.0.0
+      is-obj-prop: 2.0.0
+      is-proto-prop: 3.0.1
     dev: false
 
   /eslint-plugin-prettier@5.1.3(@types/eslint@8.40.2)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.0.0):
@@ -2263,9 +2266,9 @@ packages:
       hasown: 2.0.2
     dev: false
 
-  /get-set-props@0.1.0:
-    resolution: {integrity: sha512-7oKuKzAGKj0ag+eWZwcGw2fjiZ78tXnXQoBgY0aU7ZOxTu4bB7hSuQSDgtKy978EDH062P5FmD2EWiDpQS9K9Q==}
-    engines: {node: '>=0.10.0'}
+  /get-set-props@0.2.0:
+    resolution: {integrity: sha512-YCmOj+4YAeEB5Dd9jfp6ETdejMet4zSxXjNkgaa4npBEKRI9uDOGB5MmAdAgi2OoFGAKshYhCbmLq2DS03CgVA==}
+    engines: {node: '>=18.0.0'}
     dev: false
 
   /get-symbol-description@1.0.0:
@@ -2643,11 +2646,12 @@ packages:
       has-tostringtag: 1.0.2
     dev: false
 
-  /is-get-set-prop@1.0.0:
-    resolution: {integrity: sha512-DvAYZ1ZgGUz4lzxKMPYlt08qAUqyG9ckSg2pIjfvcQ7+pkVNUHk8yVLXOnCLe5WKXhLop8oorWFBJHpwWQpszQ==}
+  /is-get-set-prop@2.0.0:
+    resolution: {integrity: sha512-C32bqXfHJfRwa0U5UIMqSGziZhALszXDJZ8n8mz8WZ6c6V7oYGHEWwJvftliBswypY3P3EQqdY5lpDSEKvTS1Q==}
+    engines: {node: '> 18.0.0'}
     dependencies:
-      get-set-props: 0.1.0
-      lowercase-keys: 1.0.1
+      get-set-props: 0.2.0
+      lowercase-keys: 3.0.0
     dev: false
 
   /is-glob@4.0.3:
@@ -2656,10 +2660,11 @@ packages:
     dependencies:
       is-extglob: 2.1.1
 
-  /is-js-type@2.0.0:
-    resolution: {integrity: sha512-Aj13l47+uyTjlQNHtXBV8Cji3jb037vxwMWCgopRR8h6xocgBGW3qG8qGlIOEmbXQtkKShKuBM9e8AA1OeQ+xw==}
+  /is-js-type@3.0.0:
+    resolution: {integrity: sha512-IbPf3g3vxm1D902xaBaYp2TUHiXZWwWRu5bM9hgKN9oAQcFaKALV6Gd13PGhXjKE5u2n8s1PhLhdke/E1fchxQ==}
+    engines: {node: '>=18.0.0'}
     dependencies:
-      js-types: 1.0.0
+      js-types: 4.0.0
     dev: false
 
   /is-map@2.0.3:
@@ -2687,11 +2692,12 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  /is-obj-prop@1.0.0:
-    resolution: {integrity: sha512-5Idb61slRlJlsAzi0Wsfwbp+zZY+9LXKUAZpvT/1ySw+NxKLRWfa0Bzj+wXI3fX5O9hiddm5c3DAaRSNP/yl2w==}
+  /is-obj-prop@2.0.0:
+    resolution: {integrity: sha512-2/VFrbzXSZVJIscazpxoB+pOQx2jBOAAL9Gui4cRKxflznUNBpsr8IDvBA4UGol3e40sltLNiY3qnZv/7qSUxA==}
+    engines: {node: '>=18.0.0'}
     dependencies:
-      lowercase-keys: 1.0.1
-      obj-props: 1.4.0
+      lowercase-keys: 3.0.0
+      obj-props: 2.0.0
     dev: false
 
   /is-path-inside@3.0.3:
@@ -2706,11 +2712,12 @@ packages:
     resolution: {integrity: sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==}
     engines: {node: '>=0.10.0'}
 
-  /is-proto-prop@2.0.0:
-    resolution: {integrity: sha512-jl3NbQ/fGLv5Jhan4uX+Ge9ohnemqyblWVVCpAvtTQzNFvV2xhJq+esnkIbYQ9F1nITXoLfDDQLp7LBw/zzncg==}
+  /is-proto-prop@3.0.1:
+    resolution: {integrity: sha512-S8xSxNMGJO4eZD86kO46zrq2gLIhA+rN9443lQEvt8Mz/l8cxk72p/AWFmofY6uL9g9ILD6cXW6j8QQj4F3Hcw==}
+    engines: {node: '>=18.0.0'}
     dependencies:
-      lowercase-keys: 1.0.1
-      proto-props: 2.0.0
+      lowercase-keys: 3.0.0
+      prototype-properties: 5.0.0
     dev: false
 
   /is-regex@1.1.4:
@@ -2818,9 +2825,9 @@ packages:
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
-  /js-types@1.0.0:
-    resolution: {integrity: sha512-bfwqBW9cC/Lp7xcRpug7YrXm0IVw+T9e3g4mCYnv0Pjr3zIzU9PCQElYU9oSGAWzXlbdl9X5SAMPejO9sxkeUw==}
-    engines: {node: '>=0.10.0'}
+  /js-types@4.0.0:
+    resolution: {integrity: sha512-/c+n06zvqFQGxdz1BbElF7S3nEghjNchLN1TjQnk2j10HYDaUc57rcvl6BbnziTx8NQmrg0JOs/iwRpvcYaxjQ==}
+    engines: {node: '>=18.20'}
     dev: false
 
   /js-yaml@3.14.1:
@@ -2984,9 +2991,9 @@ packages:
     dependencies:
       js-tokens: 4.0.0
 
-  /lowercase-keys@1.0.1:
-    resolution: {integrity: sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==}
-    engines: {node: '>=0.10.0'}
+  /lowercase-keys@3.0.0:
+    resolution: {integrity: sha512-ozCC6gdQ+glXOQsveKD0YsDy8DSQFjDTz4zyzEHNV5+JP5D62LmfDZ6o1cycFx9ouG940M5dE8C8CTewdj2YWQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
   /lru-cache@4.1.5:
@@ -3134,9 +3141,9 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  /obj-props@1.4.0:
-    resolution: {integrity: sha512-p7p/7ltzPDiBs6DqxOrIbtRdwxxVRBj5ROukeNb9RgA+fawhrz5n2hpNz8DDmYR//tviJSj7nUnlppGmONkjiQ==}
-    engines: {node: '>=0.10.0'}
+  /obj-props@2.0.0:
+    resolution: {integrity: sha512-Q/uLAAfjdhrzQWN2czRNh3fDCgXjh7yRIkdHjDgIHTwpFP0BsshxTA3HRNffHR7Iw/XGTH30u8vdMXQ+079urA==}
+    engines: {node: '>=18.0.0'}
     dev: false
 
   /object-assign@4.1.1:
@@ -3467,9 +3474,9 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /proto-props@2.0.0:
-    resolution: {integrity: sha512-2yma2tog9VaRZY2mn3Wq51uiSW4NcPYT1cQdBagwyrznrilKSZwIZ0UG3ZPL/mx+axEns0hE35T5ufOYZXEnBQ==}
-    engines: {node: '>=4'}
+  /prototype-properties@5.0.0:
+    resolution: {integrity: sha512-uCWE2QqnGlwvvJXTwiHTPTyHE62+zORO5hpFWhAwBGDtEtTmNZZleNLJDoFsqHCL4p/CeAP2Q1uMKFUKALuRGQ==}
+    engines: {node: '>=18.20'}
     dev: false
 
   /pseudomap@1.0.2:
