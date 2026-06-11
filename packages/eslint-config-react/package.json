@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss-scss": "^4.0.9",
-    "stylelint-config-xo": "^0.22.0",
+    "stylelint-config-xo": "^1.0.0",
     "stylelint-scss": "^6.2.1"
   },
   "devDependencies": {
