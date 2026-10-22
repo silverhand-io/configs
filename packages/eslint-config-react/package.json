@@ -48,7 +48,7 @@
     "stylelint": "^15.0.0"
   },
   "engines": {
-    "node": "^20.9.0"
+    "node": "^20.9.0 || ^22.0.0 || ^24.0.0 || ^26.0.0"
   },
   "eslintConfig": {
     "extends": "@silverhand"
