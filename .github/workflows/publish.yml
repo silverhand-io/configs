@@ -1,17 +1,20 @@
 name: Publish
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*/*@*.*.*'
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   publish-to-npm:
     environment: npm
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
     runs-on: ubuntu-latest
 
     steps:
@@ -24,4 +27,8 @@ jobs:
           pnpm-version: 8
 
       - name: Publish to NPM
-        run: pnpm -r publish
+        env:
+          NODE_AUTH_TOKEN: ''
+        run: |
+          npm config delete //registry.npmjs.org/:_authToken || true
+          pnpm -r publish --no-git-checks
